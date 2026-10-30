@@ -42,8 +42,7 @@ Copia una carpeta de `equipo/`, cambia los datos, el `.vcf` y genera su QR con l
 
 ## Pendiente
 
-- Dirección completa (calle, número y CP) y los apartados marcados en amarillo de las páginas legales.
-- Revisión de los textos legales por un profesional.
+- Revisión de los textos legales por un profesional (recomendable).
 
 ## Formulario de contacto
 
