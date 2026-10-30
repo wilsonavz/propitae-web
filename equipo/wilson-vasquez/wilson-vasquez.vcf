@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vásquez;Wilson;;;
+FN:Wilson Vásquez
+ORG:Propitae
+TITLE:Asesor inmobiliario
+TEL;TYPE=CELL,VOICE:+34665288919
+EMAIL;TYPE=INTERNET,WORK:hola@propitae.es
+URL:https://propitae.es/equipo/wilson-vasquez/
+NOTE:Propitae · La inmobiliaria de personas para personas · Con el respaldo de Huspy
+END:VCARD

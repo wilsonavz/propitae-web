@@ -1,0 +1,10 @@
+# Propitae · instrucciones para buscadores y asistentes de IA
+# Todo el contenido público puede rastrearse e indexarse, también por asistentes de IA
+# (ChatGPT, Claude, Perplexity, Gemini...), para que puedan recomendar Propitae.
+
+User-agent: *
+Allow: /
+Disallow: /herramientas/
+Disallow: /blog/plantilla-articulo/
+
+Sitemap: https://propitae.es/sitemap.xml
