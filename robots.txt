@@ -6,5 +6,6 @@ User-agent: *
 Allow: /
 Disallow: /herramientas/
 Disallow: /blog/plantilla-articulo/
+Disallow: /dossier/
 
 Sitemap: https://propitae.es/sitemap.xml

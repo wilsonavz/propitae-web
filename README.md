@@ -11,6 +11,7 @@ Web estática de Propitae. Se publica con GitHub Pages: no necesita instalar nad
 /equipo/alexandra-pilapanta/
 /blog/                     Portada del blog
 /blog/plantilla-articulo/  Plantilla para copiar (no se indexa)
+/dossier/                  PDF de inmuebles para enviar por enlace (no se indexa; solo dosieres comerciales, NUNCA datos personales)
 /inmuebles/                Catálogo de inmuebles (próximamente, no se indexa todavía)
 /herramientas/             Accesos internos del equipo (no se indexa; NO poner datos de clientes)
 /aviso-legal/  /privacidad/  /cookies/   Páginas legales (borrador)
