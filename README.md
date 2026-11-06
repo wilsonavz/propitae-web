@@ -11,7 +11,7 @@ Web estática de Propitae. Se publica con GitHub Pages: no necesita instalar nad
 /equipo/alexandra-pilapanta/
 /blog/                     Portada del blog
 /blog/plantilla-articulo/  Plantilla para copiar (no se indexa)
-/dossier/                  PDF de inmuebles para enviar por enlace (no se indexa; solo dosieres comerciales, NUNCA datos personales)
+/dossier/                  Dosieres PDF de inmuebles (no se indexa; solo dosieres comerciales, NUNCA datos personales)
 /inmuebles/                Catálogo de inmuebles (próximamente, no se indexa todavía)
 /herramientas/             Accesos internos del equipo (no se indexa; NO poner datos de clientes)
 /aviso-legal/  /privacidad/  /cookies/   Páginas legales (borrador)
@@ -44,6 +44,14 @@ Copia una carpeta de `equipo/`, cambia los datos, el `.vcf` y genera su QR con l
 ## Pendiente
 
 - Revisión de los textos legales por un profesional (recomendable).
+
+## Añadir un dosier
+
+1. Sube el PDF a `dossier/` con un nombre claro, sin espacios ni tildes: `Casa-en-venta-en-Pioz-PROPITAE.pdf`.
+2. (Opcional) Sube una portada de 16:9 a `dossier/portadas/` con el mismo nombre en `.jpg`.
+3. Añade su bloque en `dossier/lista.json` (título, zona, precio, archivo, portada, estado, fecha).
+   La página `propitae.es/dossier/` lo muestra sola, ordenada de más reciente a más antigua.
+4. Cuando el inmueble se venda, cambia `estado` a «Vendido» o quita el bloque y el PDF.
 
 ## Formulario de contacto
 
