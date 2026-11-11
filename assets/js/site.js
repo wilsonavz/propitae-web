@@ -1,4 +1,9 @@
-// Propitae · aviso de cookies (común a todas las páginas)
+// Propitae · común a todas las páginas
+
+// Android: muestra la ayuda para abrir la tarjeta de contacto descargada
+if (/Android/i.test(navigator.userAgent)) document.documentElement.classList.add('es-android');
+
+// Aviso de cookies
 (function () {
   var aviso = document.querySelector('.aviso-cookies');
   if (!aviso) return;
