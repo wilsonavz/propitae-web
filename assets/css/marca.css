@@ -155,7 +155,7 @@
 .p-avance .p-paso::before{content:"";display:block;height:6px;border-radius:var(--p-r-pildora);background:var(--p-linea)}
 .p-avance .p-paso.hecho{color:var(--p-negro)}.p-avance .p-paso.hecho::before{background:var(--p-ok)}
 .p-avance .p-paso.actual{color:var(--p-negro);font-weight:800}.p-avance .p-paso.actual::before{background:var(--p-azul)}
-.p-oscuro .p-avance .p-paso{color:var(--p-texto-2-oscuro)}.p-oscuro .p-avance .p-paso::before{background:#2A2C30}
+.p-oscuro .p-avance .p-paso{color:var(--p-texto-2-oscuro)}.p-oscuro .p-avance .p-paso:not(.hecho):not(.actual)::before{background:#2A2C30}
 .p-oscuro .p-avance .p-paso.hecho,.p-oscuro .p-avance .p-paso.actual{color:var(--p-blanco)}
 
 /* Anillo de porcentaje (como Folio) */
