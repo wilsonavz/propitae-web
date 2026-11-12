@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formsubmit.co; form-action 'self' https://formsubmit.co; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="description" content="Asesores inmobiliarios independientes en Madrid con el respaldo de Huspy. Vende tu casa en una media de 60 días, compra con Personal Shopper y consigue tu hipoteca. Valoración gratuita.">
+<meta name="description" content="Asesores inmobiliarios en el Corredor del Henares y Madrid. Comprador y propietario negocian cara a cara y el dinero va directo al propietario. Valoración gratuita.">
 
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://propitae.es/">
@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="Propitae">
 <meta property="og:locale" content="es_ES">
 <meta property="og:title" content="Propitae | Asesores inmobiliarios en Madrid">
-<meta property="og:description" content="Vende, compra y financia tu casa con personas. Asesores independientes con el respaldo de Huspy.">
+<meta property="og:description" content="Vende, compra y financia tu casa con personas. Comprador y propietario negocian cara a cara.">
 <meta property="og:url" content="https://propitae.es/">
 <meta property="og:image" content="https://propitae.es/assets/img/og-propitae.jpg">
 <meta property="og:image:width" content="1200">
@@ -40,11 +40,17 @@
   "image": "https://propitae.es/assets/img/og-propitae.jpg",
   "telephone": "+34665288919",
   "email": "hola@propitae.es",
-  "description": "Asesores inmobiliarios independientes en Madrid, colaboradores de Huspy. Venta de viviendas, Personal Shopper inmobiliario para compradores e inversores, y acompañamiento en financiación hipotecaria.",
-  "areaServed": {
-    "@type": "City",
-    "name": "Madrid"
-  },
+  "description": "Asesores inmobiliarios independientes en el Corredor del Henares y la Comunidad de Madrid. Venta de viviendas, Personal Shopper inmobiliario y financiación hipotecaria. Comprador y propietario negocian cara a cara y los pagos van directos al propietario.",
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Corredor del Henares"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Comunidad de Madrid"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Torrejón de Ardoz",
@@ -78,7 +84,7 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Venta de vivienda (Acuerdo Premium y Servicios Generales)"
+          "name": "Venta de vivienda (planes Premium y Estándar)"
         }
       },
       {
@@ -185,7 +191,6 @@ input,select,textarea,button{font:inherit;}
 </a>
 <nav aria-label="Principal" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 26px; font-size: 15px; font-weight: 500">
 <a class="navlink toplink" href="#vender" style="color: #FFFFFF; text-decoration: none; padding: 12px 0">Vender</a>
-<a class="navlink toplink" href="#comprar" style="color: #FFFFFF; text-decoration: none; padding: 12px 0">Comprar</a>
 <a class="navlink toplink" href="#personal-shopper" style="color: #FFFFFF; text-decoration: none; padding: 12px 0">Personal Shopper</a>
 <a class="navlink toplink" href="#financiar" style="color: #FFFFFF; text-decoration: none; padding: 12px 0">Financiación</a>
 <a class="navlink toplink" href="#nosotros" style="color: #FFFFFF; text-decoration: none; padding: 12px 0">Nosotros</a>
@@ -209,10 +214,10 @@ La inmobiliaria de personas para personas
 <span style="display: block; animation: rise .9s .3s ease both">tu casa</span>
 <span style="display: block; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; letter-spacing: -0.02em; font-size: 1.06em; color: #00A0DC; animation: rise .9s .4s ease both">con personas.</span>
 </h1>
-<p style="margin: 0; max-width: 540px; font-size: clamp(18px, 1.5vw, 20px); line-height: 1.55; color: #D9DCDF; animation: rise .9s .5s ease both">Somos Wilson y Alexandra, asesores inmobiliarios independientes con el respaldo de Huspy. Te acompañamos de principio a fin para que vendas más rápido y al mejor precio, encuentres tu casa y consigas la financiación adecuada.</p>
+<p style="margin: 0; max-width: 540px; font-size: clamp(18px, 1.5vw, 20px); line-height: 1.55; color: #D9DCDF; animation: rise .9s .5s ease both">Somos Wilson y Alexandra, asesores inmobiliarios en el Corredor del Henares y Madrid. Con nosotros, comprador y propietario hablan cara a cara desde el principio.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 14px; animation: rise .9s .6s ease both">
 <a class="btn" href="#contacto" style="background: #00A0DC; color: #0B0B0C; text-decoration: none; padding: 18px 30px; border-radius: 999px; font-size: 16px; font-weight: 700">Valora tu vivienda gratis</a>
-<a class="btn" href="#servicios" style="border: 1px solid rgba(255,255,255,0.45); color: #FFFFFF; text-decoration: none; padding: 17px 30px; border-radius: 999px; font-size: 16px; font-weight: 600">Ver servicios</a>
+<a class="btn" href="#contacto" data-pick="comprar" style="border: 1px solid rgba(255,255,255,0.45); color: #FFFFFF; text-decoration: none; padding: 17px 30px; border-radius: 999px; font-size: 16px; font-weight: 600">Busco casa</a>
 </div>
 </div>
 <div style="flex: 1 1 400px; min-width: 0; max-width: 500px; margin: 0 auto 18px; position: relative; animation: zoomin 1.1s .2s ease both">
@@ -224,42 +229,66 @@ La inmobiliaria de personas para personas
 </div>
 </section>
 
-<!-- TICKER -->
-<div aria-hidden="true" style="background: #00A0DC; color: #0B0B0C; overflow: clip">
-<div class="ticker-track" style="display: flex; align-items: center; width: max-content; animation: ticker 32s linear infinite; padding: 22px 0; font-size: clamp(20px, 2.2vw, 28px); line-height: 1.1; font-weight: 800; text-transform: uppercase; letter-spacing: -0.005em; white-space: nowrap">
-<span style="display: flex; align-items: center">Vender&nbsp;<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 1.12em">al mejor precio</span><span class="dot"></span>Comprar&nbsp;<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 1.12em">con seguridad</span><span class="dot"></span>Financiar&nbsp;<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 1.12em">sin sorpresas</span><span class="dot"></span>Madrid<span class="dot"></span></span>
-<span style="display: flex; align-items: center">Vender&nbsp;<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 1.12em">al mejor precio</span><span class="dot"></span>Comprar&nbsp;<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 1.12em">con seguridad</span><span class="dot"></span>Financiar&nbsp;<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 1.12em">sin sorpresas</span><span class="dot"></span>Madrid<span class="dot"></span></span>
+<!-- NUESTRO COMPROMISO -->
+<section id="compromiso" style="padding: clamp(24px, 4vw, 48px) clamp(12px, 3vw, 40px) 0">
+<div style="max-width: 1360px; margin: 0 auto; background: #00A0DC; color: #0B0B0C; border-radius: 32px; padding: clamp(48px, 7vw, 88px) clamp(24px, 6vw, 88px); display: flex; flex-direction: column; gap: 44px">
+<div style="display: flex; flex-direction: column; gap: 18px; max-width: 900px">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase">Nuestro compromiso</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4.6vw, 62px); line-height: 0.98; letter-spacing: -0.035em; font-weight: 800; text-transform: uppercase">Agencias hay muchas.<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">Pocas trabajan así.</span></h2>
 </div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #0B0B0C; padding-top: 22px">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 40px; line-height: 1">01</span>
+<h3 style="margin: 0; font-size: clamp(22px, 2vw, 26px); line-height: 1.15; font-weight: 800; letter-spacing: -0.01em">Comprador y propietario, en la misma mesa.</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5">En cuanto hay un comprador interesado, os sentamos juntos para hablar de la casa. Negociáis directamente y nosotros os ayudamos a llegar a un acuerdo.</p>
 </div>
-
-<!-- NOSOTROS -->
-<section id="nosotros" style="max-width: 1280px; margin: 0 auto; padding: clamp(72px, 9vw, 128px) clamp(20px, 4vw, 56px)">
-<div style="display: flex; flex-wrap: wrap; gap: 48px 72px; align-items: center">
-<div class="rv" style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 26px">
-<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Quiénes somos</p>
-<h2 style="margin: 0; font-size: clamp(36px, 4.6vw, 60px); line-height: 0.98; letter-spacing: -0.035em; font-weight: 800; text-transform: uppercase">Conoce <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">Propitae</span></h2>
-<p style="margin: 0; font-size: clamp(19px, 1.8vw, 23px); line-height: 1.42">Somos asesores inmobiliarios independientes con un trato cercano y personal. Como colaboradores de Huspy, la proptech que está revolucionando el sector, unimos <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 1.12em">la atención de tu asesor de confianza</span> con la tecnología, los datos y la red de compradores de una gran plataforma.</p>
-<p style="margin: 0; font-size: 18px; line-height: 1.55; color: #44474C">Trabajamos en Madrid y alrededores. Tanto si eres propietario como si buscas tu próxima casa, te contamos las cosas claras desde el primer día.</p>
-<p style="margin: 6px 0 0; padding-left: 20px; border-left: 3px solid #00A0DC; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.2; color: #0B0B0C">«Díganle al justo que le irá bien».</p>
+<div style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #0B0B0C; padding-top: 22px">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 40px; line-height: 1">02</span>
+<h3 style="margin: 0; font-size: clamp(22px, 2vw, 26px); line-height: 1.15; font-weight: 800; letter-spacing: -0.01em">El dinero va directo al propietario.</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5">Las arras y los pagos se hacen entre vosotros. Nunca cobramos dinero en nombre de nadie.</p>
 </div>
-<div style="flex: 1 1 460px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start">
-<figure class="lift zoom rv d1" style="margin: 0; display: flex; flex-direction: column; border: 1.5px solid #0B0B0C; border-radius: 26px; overflow: clip; background: #FFFFFF">
-<div style="aspect-ratio: 4 / 5; overflow: clip; background: #E6F5FB"><img src="assets/img/wilson.webp" alt="Wilson Vásquez, asesor inmobiliario" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%; display: block"></div>
-<figcaption style="padding: 16px 18px; display: flex; flex-direction: column; gap: 2px; background: #FFFFFF; border-top: 1.5px solid #0B0B0C"><strong style="font-size: 19px; font-weight: 800"><a href="equipo/wilson-vasquez/" style="color: inherit; text-decoration: none">Wilson Vásquez</a></strong><span style="font-size: 15px; color: #44474C">Asesor inmobiliario</span></figcaption>
-</figure>
-<figure class="lift zoom tocolor rv d2" style="margin: 48px 0 0; display: flex; flex-direction: column; border: 1.5px solid #0B0B0C; border-radius: 26px; overflow: clip; background: #FFFFFF">
-<div style="aspect-ratio: 4 / 5; overflow: clip; background: #E6F5FB"><img src="assets/img/alexandra.webp" alt="Alexandra Pilapanta, asesora inmobiliaria" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%; display: block"></div>
-<figcaption style="padding: 16px 18px; display: flex; flex-direction: column; gap: 2px; background: #FFFFFF; border-top: 1.5px solid #0B0B0C"><strong style="font-size: 19px; font-weight: 800"><a href="equipo/alexandra-pilapanta/" style="color: inherit; text-decoration: none">Alexandra Pilapanta</a></strong><span style="font-size: 15px; color: #44474C">Asesora inmobiliaria</span></figcaption>
-</figure>
+<div style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #0B0B0C; padding-top: 22px">
+<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 40px; line-height: 1">03</span>
+<h3 style="margin: 0; font-size: clamp(22px, 2vw, 26px); line-height: 1.15; font-weight: 800; letter-spacing: -0.01em">Un precio real desde el primer día.</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5">No inflamos la valoración para conseguir tu casa. Te decimos lo que vale de verdad, para que se venda sin rebajas a mitad de camino.</p>
+</div>
 </div>
 </div>
 </section>
 
+<!-- SERVICIOS -->
+<section id="servicios" style="max-width: 1280px; margin: 0 auto; padding: clamp(80px, 10vw, 140px) clamp(20px, 4vw, 56px) clamp(40px, 5vw, 64px); display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px">
+<h2 style="margin: 0; font-size: clamp(38px, 5vw, 70px); line-height: 0.96; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">¿En qué te<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">podemos ayudar?</span></h2>
+<p style="margin: 0; max-width: 380px; font-size: 18px; line-height: 1.5; color: #44474C">Tres servicios, y siempre hablas con nosotros.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px">
+<a class="lift rv" href="#vender" style="text-decoration: none; color: #0B0B0C; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 18px; min-height: 300px; background: #FFFFFF">
+<span style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 800; letter-spacing: 0.12em">01</span><span aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; background: #0B0B0C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 20px">↗</span></span>
+<span style="font-size: 36px; font-weight: 800; letter-spacing: -0.03em; text-transform: uppercase; line-height: 1">Vender <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">tu casa</span></span>
+<span style="font-size: 17px; line-height: 1.5; color: #33363A; flex-grow: 1">Valoración con datos de ventas de tu zona y tu casa en más de 30 portales.</span>
+<span style="font-size: 15px; font-weight: 700; color: #007DB0">Para propietarios →</span>
+</a>
+<a class="lift rv d1" href="#personal-shopper" style="text-decoration: none; color: #0B0B0C; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 18px; min-height: 300px; background: #FFFFFF">
+<span style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 800; letter-spacing: 0.12em">02</span><span aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; background: #0B0B0C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 20px">↗</span></span>
+<span style="font-size: 36px; font-weight: 800; letter-spacing: -0.03em; text-transform: uppercase; line-height: 1">Comprar <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">tu casa</span></span>
+<span style="font-size: 17px; line-height: 1.5; color: #33363A; flex-grow: 1">Te enseñamos solo lo que encaja contigo y revisamos la casa por dentro antes de que firmes.</span>
+<span style="font-size: 15px; font-weight: 700; color: #007DB0">Para compradores →</span>
+</a>
+<a class="lift rv d2" href="#financiar" style="text-decoration: none; color: #0B0B0C; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 18px; min-height: 300px; background: #00A0DC">
+<span style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 800; letter-spacing: 0.12em">03</span><span aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; background: #0B0B0C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 20px">↗</span></span>
+<span style="font-size: 36px; font-weight: 800; letter-spacing: -0.03em; text-transform: uppercase; line-height: 1">Financiar <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">tu hipoteca</span></span>
+<span style="font-size: 17px; line-height: 1.5; color: #0B0B0C; flex-grow: 1">Hemos conseguido hipoteca a clientes a los que el banco se la había negado.</span>
+<span style="font-size: 15px; font-weight: 800">Financiación hipotecaria →</span>
+</a>
+</div>
+</section>
+
 <!-- HERRAMIENTAS -->
-<section id="herramientas" style="max-width: 1280px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px) clamp(80px, 10vw, 130px); display: flex; flex-direction: column; gap: 44px">
+<section id="vender" style="max-width: 1280px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px) clamp(80px, 10vw, 130px); display: flex; flex-direction: column; gap: 44px">
 <div class="rv" style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px">
 <div style="display: flex; flex-direction: column; gap: 18px">
-<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Herramientas de venta</p>
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Vender tu casa</p>
 <h2 style="margin: 0; font-size: clamp(38px, 5vw, 70px); line-height: 0.98; letter-spacing: -0.035em; font-weight: 800; text-transform: uppercase">Lo que hace que tu casa<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">se venda antes.</span></h2>
 </div>
 <a class="btn" href="#contacto" style="background: #0B0B0C; color: #FFFFFF; text-decoration: none; padding: 17px 28px; border-radius: 999px; font-size: 16px; font-weight: 700">Quiero vender mi casa</a>
@@ -272,7 +301,7 @@ La inmobiliaria de personas para personas
 <span style="font-size: clamp(110px, 14vw, 190px); font-weight: 900; letter-spacing: -0.05em; line-height: 0.85; color: #00A0DC; font-variant-numeric: tabular-nums"><span class="count c60"><span class="lit">60</span></span></span>
 <span style="font-size: clamp(34px, 4vw, 54px); font-weight: 800; text-transform: uppercase; line-height: 1">días<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">o menos.</span></span>
 </div>
-<p style="position: relative; margin: 0; font-size: 18px; line-height: 1.5; color: #D9DCDF; max-width: 460px">Con el Acuerdo Premium, tu casa sale al mercado con todo a punto para venderse rápido y al mejor precio.</p>
+<p style="position: relative; margin: 0; font-size: 18px; line-height: 1.5; color: #D9DCDF; max-width: 460px">Con el plan Premium, tu casa sale al mercado con todo listo.</p>
 </div>
 <div class="lift rv d1" style="flex: 1 1 380px; min-width: 0; background: #00A0DC; color: #0B0B0C; border: 1.5px solid #0B0B0C; border-radius: 30px; padding: clamp(28px, 4vw, 48px); display: flex; flex-direction: column; justify-content: space-between; gap: 28px; min-height: 340px">
 <span style="font-size: 13px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase">Máxima visibilidad</span>
@@ -284,28 +313,28 @@ La inmobiliaria de personas para personas
 </div>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 20px">
-<div class="lift rv" style="flex: 1 1 250px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
+<div class="lift rv" style="flex: 1 1 200px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
 <span style="width: 56px; height: 56px; border-radius: 16px; background: #0B0B0C; color: #00A0DC; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5 20.5 7v10L12 21.5 3.5 17V7Z"/><path d="M3.5 7 12 11.5 20.5 7M12 11.5v10"/></svg></span>
 <strong style="font-size: 21px; font-weight: 800; letter-spacing: -0.01em">Tour 3D Matterport</strong>
 <span style="font-size: 16px; line-height: 1.5; color: #33363A">Los compradores recorren tu casa desde el sofá, y solo visitan los realmente interesados.</span>
 </div>
-<div class="lift rv d1" style="flex: 1 1 250px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
+<div class="lift rv d1" style="flex: 1 1 200px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
 <span style="width: 56px; height: 56px; border-radius: 16px; background: #0B0B0C; color: #00A0DC; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7.5h3l1.6-2.5h6.8L17 7.5h3a1 1 0 0 1 1 1V18a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8.5a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg></span>
 <strong style="font-size: 21px; font-weight: 800; letter-spacing: -0.01em">Foto, vídeo y planos</strong>
-<span style="font-size: 16px; line-height: 1.5; color: #33363A">Fotografía profesional, vídeo de alta calidad y planos detallados de tu vivienda.</span>
+<span style="font-size: 16px; line-height: 1.5; color: #33363A">Fotografía profesional, vídeo y planos de tu vivienda.</span>
 </div>
-<div class="lift rv d2" style="flex: 1 1 250px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
+<div class="lift rv d2" style="flex: 1 1 200px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
 <span style="width: 56px; height: 56px; border-radius: 16px; background: #0B0B0C; color: #00A0DC; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4.5"/><path d="m11.2 11.8 8.3-8.3M16.5 6.5l2.5 2.5M14 9l2 2"/></svg></span>
 <strong style="font-size: 21px; font-weight: 800; letter-spacing: -0.01em">Compradores preaprobados</strong>
-<span style="font-size: 16px; line-height: 1.5; color: #33363A">Compradores con hipoteca preaprobada: operaciones más seguras y sin sorpresas.</span>
+<span style="font-size: 16px; line-height: 1.5; color: #33363A">Te traemos compradores con la hipoteca ya aprobada, para que la venta no se caiga.</span>
 </div>
-<div class="lift rv d3" style="flex: 1 1 250px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
+<div class="lift rv d3" style="flex: 1 1 200px; min-width: 0; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF">
 <span style="width: 56px; height: 56px; border-radius: 16px; background: #0B0B0C; color: #00A0DC; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3Z"/></svg></span>
 <strong style="font-size: 21px; font-weight: 800; letter-spacing: -0.01em">Red internacional</strong>
-<span style="font-size: 16px; line-height: 1.5; color: #33363A">Acceso a una red de compradores nacionales e internacionales a través de Huspy.</span>
+<span style="font-size: 16px; line-height: 1.5; color: #33363A">Tu casa a la vista de compradores de toda España y del extranjero.</span>
 </div>
 </div>
-<p style="margin: 0; font-size: 13px; color: #5A5F66">* Tiempo medio de venta con el Acuerdo Premium, según datos de la red Huspy.</p>
+<p style="margin: 0; font-size: 13px; color: #5A5F66">* Tiempo medio de venta con el plan Premium, según datos de la red Huspy.</p>
 </section>
 
 <!-- RESPALDO HUSPY -->
@@ -315,7 +344,7 @@ La inmobiliaria de personas para personas
 <div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,12,0.96) 30%, rgba(11,11,12,0.55))"></div>
 <div style="position: relative; padding: clamp(56px, 8vw, 104px) clamp(24px, 6vw, 88px); display: flex; flex-direction: column; gap: 56px">
 <div class="rv" style="display: flex; flex-direction: column; gap: 22px; max-width: 920px">
-<p style="margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #BFC3C7">Independientes, con la fuerza de <img src="assets/img/huspy-blanco.svg" alt="Huspy" style="height: 18px; width: auto; display: block"></p>
+<p style="margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #BFC3C7">Nuestra red <img src="assets/img/huspy-blanco.svg" alt="Huspy" style="height: 18px; width: auto; display: block"></p>
 <h2 style="margin: 0; font-size: clamp(32px, 4.6vw, 64px); line-height: 1; letter-spacing: -0.035em; font-weight: 800; text-transform: uppercase">Detrás de nosotros,<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; color: #00A0DC">una red que vende.</span></h2>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0">
@@ -329,11 +358,7 @@ La inmobiliaria de personas para personas
 </div>
 <div class="rv sl d2" style="padding: 26px 24px 0 0; border-top: 2px solid rgba(255,255,255,0.35); display: flex; flex-direction: column; gap: 6px">
 <span style="font-size: clamp(46px, 5vw, 68px); font-weight: 900; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums"><span class="count c500"><span class="lit">500</span></span></span>
-<span style="font-size: 16px; font-weight: 600; text-transform: uppercase">Expertos <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.2em; text-transform: none">para ti</span></span>
-</div>
-<div class="rv sl d3" style="padding: 26px 24px 0 0; border-top: 2px solid rgba(255,255,255,0.35); display: flex; flex-direction: column; gap: 6px">
-<span style="font-size: clamp(46px, 5vw, 68px); font-weight: 900; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums"><span class="count c2"><span class="lit">2</span></span></span>
-<span style="font-size: 16px; font-weight: 600; text-transform: uppercase">Asesores <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.2em; text-transform: none">contigo siempre</span></span>
+<span style="font-size: 16px; font-weight: 600; text-transform: uppercase">Profesionales <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.2em; text-transform: none">en la red</span></span>
 </div>
 </div>
 <p style="margin: 0; font-size: 13px; color: #BFC3C7">* Cifras de la red Huspy en España.</p>
@@ -341,154 +366,32 @@ La inmobiliaria de personas para personas
 </div>
 </section>
 
-<!-- SERVICIOS -->
-<section id="servicios" style="max-width: 1280px; margin: 0 auto; padding: clamp(80px, 10vw, 140px) clamp(20px, 4vw, 56px) clamp(40px, 5vw, 64px); display: flex; flex-direction: column; gap: 48px">
-<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px">
-<h2 style="margin: 0; font-size: clamp(38px, 5vw, 70px); line-height: 0.96; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">¿En qué te<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">podemos ayudar?</span></h2>
-<p style="margin: 0; max-width: 380px; font-size: 18px; line-height: 1.5; color: #44474C">Tres servicios, un mismo equipo. Sin intermediarios de más ni sorpresas.</p>
-</div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px">
-<a class="lift rv" href="#vender" style="text-decoration: none; color: #0B0B0C; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 18px; min-height: 300px; background: #FFFFFF">
-<span style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 800; letter-spacing: 0.12em">01</span><span aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; background: #0B0B0C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 20px">↗</span></span>
-<span style="font-size: 36px; font-weight: 800; letter-spacing: -0.03em; text-transform: uppercase; line-height: 1">Vender <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">tu casa</span></span>
-<span style="font-size: 17px; line-height: 1.5; color: #33363A; flex-grow: 1">Te ayudamos a establecer un precio de venta realista para tu vivienda, basado en datos del mercado y no en promesas vacías para conseguir tu confianza. Trabajamos con total transparencia. Facilitamos el diálogo directo entre el propietario y el comprador para que podáis alcanzar un acuerdo justo.</span>
-<span style="font-size: 15px; font-weight: 700; color: #007DB0">Para propietarios →</span>
-</a>
-<a class="lift rv d1" href="#comprar" style="text-decoration: none; color: #0B0B0C; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 18px; min-height: 300px; background: #FFFFFF">
-<span style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 800; letter-spacing: 0.12em">02</span><span aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; background: #0B0B0C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 20px">↗</span></span>
-<span style="font-size: 36px; font-weight: 800; letter-spacing: -0.03em; text-transform: uppercase; line-height: 1">Comprar <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">tu casa</span></span>
-<span style="font-size: 17px; line-height: 1.5; color: #33363A; flex-grow: 1">Hemos estado en tu lado de la mesa y sabemos lo difícil que te lo ponen. Revisamos cada vivienda con ojo técnico y te contamos todo, también lo que no sale en las fotos.</span>
-<span style="font-size: 15px; font-weight: 700; color: #007DB0">Para compradores →</span>
-</a>
-<a class="lift rv d2" href="#financiar" style="text-decoration: none; color: #0B0B0C; border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 18px; min-height: 300px; background: #00A0DC">
-<span style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 800; letter-spacing: 0.12em">03</span><span aria-hidden="true" style="width: 44px; height: 44px; border-radius: 50%; background: #0B0B0C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-size: 20px">↗</span></span>
-<span style="font-size: 36px; font-weight: 800; letter-spacing: -0.03em; text-transform: uppercase; line-height: 1">Financiar <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">tu hipoteca</span></span>
-<span style="font-size: 17px; line-height: 1.5; color: #0B0B0C; flex-grow: 1">¿Te han dicho que no es posible? Hemos conseguido financiación a clientes a los que se la habían denegado. Estudiamos tu caso a fondo antes de rendirnos.</span>
-<span style="font-size: 15px; font-weight: 800">Financiación hipotecaria →</span>
-</a>
-</div>
-</section>
-
-<!-- NUESTRO COMPROMISO -->
-<section id="compromiso" style="padding: clamp(24px, 4vw, 48px) clamp(12px, 3vw, 40px) 0">
-<div style="max-width: 1360px; margin: 0 auto; background: #0B0B0C; color: #FFFFFF; border-radius: 32px; padding: clamp(48px, 7vw, 88px) clamp(24px, 6vw, 88px); display: flex; flex-direction: column; gap: 44px">
-<div class="rv" style="display: flex; flex-direction: column; gap: 18px; max-width: 900px">
-<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #00A0DC">Nuestro compromiso</p>
-<h2 style="margin: 0; font-size: clamp(34px, 4.6vw, 62px); line-height: 0.98; letter-spacing: -0.035em; font-weight: 800; text-transform: uppercase">Agencias hay muchas.<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">Así trabajamos nosotros.</span></h2>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 28px 40px">
-<div class="rv" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 14px; border-top: 2px solid #00A0DC; padding-top: 22px">
-<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 40px; line-height: 1; color: #00A0DC">01</span>
-<p style="margin: 0; font-size: clamp(20px, 1.9vw, 24px); line-height: 1.3; font-weight: 700">Transparencia total: comprador y vendedor, siempre en la misma mesa.</p>
-</div>
-<div class="rv d1" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 14px; border-top: 2px solid #00A0DC; padding-top: 22px">
-<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 40px; line-height: 1; color: #00A0DC">02</span>
-<p style="margin: 0; font-size: clamp(20px, 1.9vw, 24px); line-height: 1.3; font-weight: 700">Nunca cogemos dinero en nombre de nadie: los pagos van directos al propietario.</p>
-</div>
-<div class="rv d2" style="flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 14px; border-top: 2px solid #00A0DC; padding-top: 22px">
-<span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none; font-size: 40px; line-height: 1; color: #00A0DC">03</span>
-<p style="margin: 0; font-size: clamp(20px, 1.9vw, 24px); line-height: 1.3; font-weight: 700">Te decimos la verdad, aunque no sea lo que esperas oír.</p>
-</div>
-</div>
-</div>
-</section>
-
-<!-- POR QUÉ -->
-<section id="vender" style="max-width: 1280px; margin: 0 auto; padding: clamp(56px, 7vw, 96px) clamp(20px, 4vw, 56px); display: flex; flex-direction: column; gap: 48px">
-<div style="display: flex; flex-direction: column; gap: 24px; max-width: 920px">
-<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Propietarios</p>
-<h2 style="margin: 0; font-size: clamp(36px, 4.8vw, 66px); line-height: 0.96; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">¿Por qué vender con nosotros<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400">tu propiedad?</span></h2>
-<p style="margin: 0; font-size: clamp(19px, 1.8vw, 23px); line-height: 1.42">Porque combinamos agilidad, para lograr el mejor precio, con la tranquilidad y seguridad que necesitas en cada etapa del proceso.</p>
-</div>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
-<div class="lift rv" style="border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 22px; background: #FFFFFF">
-<div style="display: flex; align-items: center; gap: 18px"><span aria-hidden="true" style="width: 84px; height: 84px; border-radius: 22px; background: #0B0B0C; color: #00A0DC; display: flex; align-items: center; justify-content: center; font-size: 64px; font-weight: 800; line-height: 1">+</span><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.01em">DINERO</span></div>
-<p style="margin: 0; font-size: 18px; line-height: 1.5">Gracias a la tecnología y el marketing digital de Huspy, tu vivienda llega a muchos más compradores cualificados, nacionales e internacionales, para vender al mejor precio.</p>
-</div>
-<div class="lift rv d1" style="border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 22px; background: #FFFFFF">
-<div style="display: flex; align-items: center; gap: 18px"><span aria-hidden="true" style="width: 84px; height: 84px; border-radius: 22px; background: #0B0B0C; color: #00A0DC; display: flex; align-items: center; justify-content: center; font-size: 64px; font-weight: 800; line-height: 1">−</span><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.01em">TIEMPO</span></div>
-<p style="margin: 0; font-size: 18px; line-height: 1.5">Con una red de más de 100 agencias colaboradoras y más de 500 expertos, multiplicamos las oportunidades de venta para que tu propiedad se venda en menos tiempo.</p>
-</div>
-<div class="lift rv d2" style="border: 1.5px solid #0B0B0C; border-radius: 26px; padding: 32px; display: flex; flex-direction: column; gap: 22px; background: #FFFFFF">
-<div style="display: flex; align-items: center; gap: 18px"><span aria-hidden="true" style="width: 84px; height: 84px; border-radius: 22px; background: #0B0B0C; color: #00A0DC; display: flex; align-items: center; justify-content: center; font-size: 64px; font-weight: 800; line-height: 1">+</span><span style="font-size: 26px; font-weight: 800; letter-spacing: -0.01em">TRANQUILIDAD</span></div>
-<p style="margin: 0; font-size: 18px; line-height: 1.5">Acompañamiento financiero y compradores con hipoteca preaprobada, para que cada operación sea segura y sin sorpresas. Y siempre con nosotros como tu contacto directo.</p>
-</div>
-</div>
-</section>
-
 <!-- OPCIONES DE VENTA -->
 <section style="background: #F2F4F5">
-<div style="max-width: 1280px; margin: 0 auto; padding: clamp(72px, 9vw, 120px) clamp(20px, 4vw, 56px); display: flex; flex-direction: column; gap: 48px">
-<h2 style="margin: 0; font-size: clamp(36px, 4.8vw, 66px); line-height: 1; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">Vende antes y mejor:<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">elige tu plan.</span></h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 24px; align-items: stretch">
-<div class="lift rv" style="background: #0B0B0C; color: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 44px); display: flex; flex-direction: column; gap: 22px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
-<h3 style="margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.01em">1. ACUERDO PREMIUM</h3>
-<span style="background: #00A0DC; color: #0B0B0C; font-size: 13px; font-weight: 800; padding: 7px 14px; border-radius: 999px">Recomendado</span>
+<div style="max-width: 1280px; margin: 0 auto; padding: clamp(72px, 9vw, 120px) clamp(20px, 4vw, 56px); display: flex; flex-direction: column; gap: 40px">
+<h2 style="margin: 0; font-size: clamp(36px, 4.8vw, 66px); line-height: 1; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">Elige cómo<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">vender tu casa.</span></h2>
+<div style="background: #FFFFFF; border: 1.5px solid #D5D9DD; border-radius: 24px; padding: 26px 30px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 15px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: #007DB0">Los dos planes incluyen</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 12px 32px"><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Valoración de tu vivienda</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Nota simple</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Portales nacionales e internacionales</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Fotografía profesional y vídeo</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Apoyo legal y administrativo</span></li></ul>
 </div>
-<span style="align-self: flex-start; background: #FFFFFF; color: #0B0B0C; padding: 10px 20px; border-radius: 999px; font-size: 16px; font-weight: 600">Tiempo medio: 60 días</span>
-<p style="margin: 0; font-size: 17px; font-weight: 700">Incluye:</p>
-<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; font-size: 17px; line-height: 1.4; color: #E4E6E8">
-<li>Valoración de la propiedad</li>
-<li>Nota simple</li>
-<li>Inversiones estratégicas en marketing</li>
-<li>Listados internacionales y nacionales</li>
-<li>Apoyo legal y administrativo</li>
-<li>Fotografía profesional</li>
-<li>Vídeo de alta calidad</li>
-<li>Tour en 3D de Matterport</li>
-<li>Planos detallados</li>
-<li>Certificación de eficiencia energética</li>
-<li>Seguimiento del mercado y de compradores potenciales</li>
-</ul>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 24px; align-items: start">
+<div style="background: #0B0B0C; color: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 44px); display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px"><h3 style="margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -0.01em">PREMIUM</h3><span style="background: #00A0DC; color: #0B0B0C; font-size: 13px; font-weight: 800; padding: 7px 14px; border-radius: 999px">Recomendado</span></div>
+<p style="margin: 0; font-size: 20px; font-weight: 700">Tiempo medio de venta: <span style="color: #00A0DC">60 días</span></p>
+<p style="margin: 0; font-size: 16px; font-weight: 700; color: #BFC3C7">Además incluye:</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px"><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Tour 3D Matterport</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Planos de la vivienda</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Certificado energético</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Publicidad en redes sociales</span></li><li style="display: flex; gap: 12px; align-items: flex-start; font-size: 17px; line-height: 1.4"><span aria-hidden="true" style="flex: 0 0 24px; height: 24px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; margin-top: 1px">✓</span><span>Difusión entre inversores</span></li></ul>
+<p style="margin: 6px 0 0; padding: 16px 18px; border-radius: 16px; background: rgba(0,160,220,0.14); border: 1px solid rgba(0,160,220,0.5); font-size: 17px; line-height: 1.45"><strong style="color: #00A0DC">Y si encuentras comprador tú,</strong> también puedes venderla por tu cuenta.</p>
 </div>
-<div class="lift rv d1" style="background: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 44px); display: flex; flex-direction: column; gap: 22px">
-<h3 style="margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.01em">2. SERVICIOS GENERALES</h3>
-<span style="align-self: flex-start; background: #0B0B0C; color: #FFFFFF; padding: 10px 20px; border-radius: 999px; font-size: 16px; font-weight: 600">Tiempo medio: hasta 4 meses</span>
-<p style="margin: 0; font-size: 17px; font-weight: 700">Incluye:</p>
-<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; font-size: 17px; line-height: 1.4">
-<li>Valoración de la propiedad</li>
-<li>Nota simple</li>
-<li>Inversiones estratégicas en marketing</li>
-<li>Listados internacionales y nacionales</li>
-<li>Apoyo legal y administrativo</li>
-<li>Fotografía profesional</li>
-<li>Vídeo de alta calidad</li>
-</ul>
+<div style="background: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 44px); display: flex; flex-direction: column; gap: 20px">
+<h3 style="margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -0.01em">ESTÁNDAR</h3>
+<p style="margin: 0; font-size: 20px; font-weight: 700">Tiempo medio de venta: hasta 4 meses</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #44474C">Todo lo necesario para que tu casa salga al mercado.</p>
 </div>
 </div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 32px; border-top: 1.5px solid #0B0B0C; padding-top: 26px">
+<p style="margin: 0; font-size: 19px; line-height: 1.45; max-width: 640px"><strong>Solo cobramos si se vende tu casa.</strong> Te explicamos los honorarios en la primera visita.</p>
+<a href="#contacto" style="background: #0B0B0C; color: #FFFFFF; text-decoration: none; padding: 17px 28px; border-radius: 999px; font-size: 16px; font-weight: 700">Valora tu casa gratis</a>
 </div>
-</section>
-
-<!-- COMPRADORES -->
-<section id="comprar" style="max-width: 1280px; margin: 0 auto; padding: clamp(80px, 10vw, 140px) clamp(20px, 4vw, 56px) clamp(56px, 7vw, 96px); display: flex; flex-wrap: wrap; gap: 48px 72px; align-items: center">
-<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
-<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Compradores</p>
-<h2 style="margin: 0; font-size: clamp(36px, 4.8vw, 66px); line-height: 0.96; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">Tu próxima casa,<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">sin perder el tiempo.</span></h2>
-<div style="border-radius: 28px; overflow: clip; aspect-ratio: 3 / 2"><img class="kb" src="assets/img/edificio.jpg" alt="Edificio residencial moderno con terrazas" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
-<p style="margin: 0; padding-left: 20px; border-left: 3px solid #00A0DC; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: clamp(22px, 2.2vw, 28px); line-height: 1.25; color: #0B0B0C">«El esplendor de esta segunda casa será mayor que el de la primera».</p>
-</div>
-<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
-<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #33363A">Nos cuentas qué buscas y nosotros hacemos el trabajo pesado: te enseñamos solo lo que encaja, te damos datos reales de precio y te acompañamos hasta la firma.</p>
-<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
-<li class="step s1" style="display: flex; gap: 22px; padding: 22px 0; border-top: 1.5px solid #0B0B0C">
-<span class="num" style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 38px; line-height: 1; min-width: 46px; color: #007DB0">01</span>
-<div style="display: flex; flex-direction: column; gap: 6px"><strong style="font-size: 20px; font-weight: 800">Búsqueda a medida</strong><span style="font-size: 17px; line-height: 1.5; color: #33363A">Definimos contigo zona, presupuesto y prioridades, y filtramos el mercado por ti.</span></div>
-</li>
-<li class="step s2" style="display: flex; gap: 22px; padding: 22px 0; border-top: 1px solid #D5D9DD">
-<span class="num" style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 38px; line-height: 1; min-width: 46px; color: #007DB0">02</span>
-<div style="display: flex; flex-direction: column; gap: 6px"><strong style="font-size: 20px; font-weight: 800">Visitas con criterio</strong><span style="font-size: 17px; line-height: 1.5; color: #33363A">Organizamos las visitas y te damos una opinión honesta de cada vivienda y su precio.</span></div>
-</li>
-<li class="step s3" style="display: flex; gap: 22px; padding: 22px 0; border-top: 1px solid #D5D9DD">
-<span class="num" style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 38px; line-height: 1; min-width: 46px; color: #007DB0">03</span>
-<div style="display: flex; flex-direction: column; gap: 6px"><strong style="font-size: 20px; font-weight: 800">Negociación</strong><span style="font-size: 17px; line-height: 1.5; color: #33363A">Facilitamos el diálogo entre propietario y comprador, con total transparencia y sin presiones, para alcanzar un acuerdo justo para ambas partes.</span></div>
-</li>
-<li class="step s4" style="display: flex; gap: 22px; padding: 22px 0; border-top: 1px solid #D5D9DD; border-bottom: 1px solid #D5D9DD">
-<span class="num" style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 38px; line-height: 1; min-width: 46px; color: #007DB0">04</span>
-<div style="display: flex; flex-direction: column; gap: 6px"><strong style="font-size: 20px; font-weight: 800">Hasta la notaría</strong><span style="font-size: 17px; line-height: 1.5; color: #33363A">Revisamos la documentación y te acompañamos hasta que tengas las llaves.</span></div>
-</li>
-</ol>
-<a class="btn" href="#contacto" style="align-self: flex-start; background: #0B0B0C; color: #FFFFFF; text-decoration: none; padding: 17px 28px; border-radius: 999px; font-size: 16px; font-weight: 700">Cuéntanos qué buscas</a>
 </div>
 </section>
 
@@ -497,38 +400,37 @@ La inmobiliaria de personas para personas
 <div style="max-width: 1280px; margin: 0 auto; padding: clamp(80px, 10vw, 130px) clamp(20px, 4vw, 56px); display: flex; flex-direction: column; gap: 48px">
 <div class="rv" style="display: flex; flex-wrap: wrap; gap: 24px 72px; align-items: flex-end">
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
-<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Servicio exclusivo</p>
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Comprar</p>
 <h2 style="margin: 0; font-size: clamp(40px, 5.4vw, 76px); line-height: 0.96; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">Personal Shopper<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">inmobiliario.</span></h2>
 </div>
-<p style="flex: 1 1 360px; min-width: 0; margin: 0; font-size: 19px; line-height: 1.5; color: #33363A">Buscamos, analizamos y negociamos por ti. No te enseñamos casas: te traemos la casa, o la inversión, que de verdad encaja contigo.</p>
+<p style="flex: 1 1 360px; min-width: 0; margin: 0; font-size: 19px; line-height: 1.5; color: #33363A">Buscamos, visitamos y negociamos en tu nombre.</p>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div class="lift rv d1" style="flex: 1 1 320px; min-width: 0; background: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 40px); display: flex; flex-direction: column; gap: 20px">
+<span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #007DB0">Para inversores</span>
+<h3 style="margin: 0; font-size: clamp(26px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em; font-weight: 800">Invierte <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">con los números claros.</span></h3>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px">
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Estudio de rentabilidad: precio, alquiler estimado y gastos</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Oportunidades por debajo de precio de mercado</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Coste de la reforma antes de comprar</span></li>
+</ul>
+</div>
 <div class="lift rv" style="flex: 1 1 320px; min-width: 0; background: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 40px); display: flex; flex-direction: column; gap: 20px">
 <span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #007DB0">Para compradores</span>
 <h3 style="margin: 0; font-size: clamp(26px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em; font-weight: 800">Sin tiempo o sin experiencia <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">para buscar por tu cuenta.</span></h3>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px">
-<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Filtramos el mercado según tus prioridades y presupuesto</span></li>
 <li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Hacemos la primera visita por ti y te contamos lo que no sale en las fotos</span></li>
 <li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Negociamos el precio y las condiciones en tu nombre</span></li>
 </ul>
 </div>
-<div class="lift rv d1" style="flex: 1 1 320px; min-width: 0; background: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 40px); display: flex; flex-direction: column; gap: 20px">
-<span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #007DB0">Para inversores</span>
-<h3 style="margin: 0; font-size: clamp(26px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em; font-weight: 800">Buscas rentabilidad, <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">no solo un inmueble.</span></h3>
-<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px">
-<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Estudio de rentabilidad: precio, alquiler estimado y gastos</span></li>
-<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Detección de oportunidades por debajo de mercado</span></li>
-<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Valoración del coste real de reforma antes de comprar</span></li>
-</ul>
-</div>
 <div class="lift rv d2" style="flex: 1 1 320px; min-width: 0; background: #0B0B0C; color: #FFFFFF; border: 1.5px solid #0B0B0C; border-radius: 28px; padding: clamp(28px, 3.5vw, 40px); display: flex; flex-direction: column; gap: 20px">
-<span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #00A0DC">Nuestra diferencia</span>
-<h3 style="margin: 0; font-size: clamp(26px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em; font-weight: 800">Análisis técnico <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">de cada propiedad.</span></h3>
-<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #D9DCDF">Wilson es Técnico Superior en Proyectos de Edificación: lee planos, mide y detecta defectos antes de que compres. No solo miramos la foto: revisamos el estado real de la vivienda.</p>
+<span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #00A0DC">Lo que nos diferencia</span>
+<h3 style="margin: 0; font-size: clamp(26px, 2.6vw, 34px); line-height: 1.05; letter-spacing: -0.02em; font-weight: 800">Revisamos la casa <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">por dentro.</span></h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #D9DCDF">Antes de que compres, revisamos la vivienda contigo. Wilson es técnico en edificación y electricista de profesión, así que sabemos ver lo que no sale en las fotos.</p>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px">
-<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Estado de la instalación eléctrica</span></li>
-<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Calidades, conservación y posibles reformas</span></li>
-<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Informe claro para que decidas con datos</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Instalación eléctrica</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Estado de conservación y calidades</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45"><span aria-hidden="true" style="flex: 0 0 26px; height: 26px; border-radius: 50%; background: #00A0DC; color: #0B0B0C; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; margin-top: 1px">✓</span><span>Qué habría que arreglar</span></li>
 </ul>
 </div>
 </div>
@@ -542,16 +444,39 @@ La inmobiliaria de personas para personas
 <div aria-hidden="true" style="position: absolute; right: -160px; top: -160px; width: 480px; height: 480px; border-radius: 50%; background: radial-gradient(circle, rgba(0,160,220,0.30), rgba(0,160,220,0) 70%)"></div>
 <div style="position: relative; flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
 <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #00A0DC">Financiación hipotecaria</p>
-<h2 style="margin: 0; font-size: clamp(36px, 4.8vw, 66px); line-height: 0.96; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">Tu hipoteca,<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">bien acompañada.</span></h2>
-<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #D9DCDF">Con el servicio de acompañamiento financiero de Huspy te ayudamos a entender tus opciones, preparar la documentación y buscar las mejores condiciones para tu compra.</p>
+<h2 style="margin: 0; font-size: clamp(36px, 4.8vw, 66px); line-height: 0.96; letter-spacing: -0.04em; font-weight: 800; text-transform: uppercase">Consigue tu hipoteca,<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">aunque te la hayan negado.</span></h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #D9DCDF">Estudiamos tu caso y preparamos la documentación contigo.</p>
 <a href="#contacto" data-pick="financiar" style="align-self: flex-start; background: #00A0DC; color: #0B0B0C; text-decoration: none; padding: 17px 28px; border-radius: 999px; font-size: 16px; font-weight: 700">Estudiar mi hipoteca</a>
 </div>
 <ul style="position: relative; flex: 1 1 380px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px">
 <li style="border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 20px 22px; display: flex; gap: 18px; align-items: center; background: rgba(255,255,255,0.03)"><span aria-hidden="true" style="font-size: 32px; font-weight: 800; line-height: 1; color: #00A0DC">+</span><span style="font-size: 18px; line-height: 1.4">Estudio de tu capacidad de compra <strong style="background: #00A0DC; color: #0B0B0C; padding: 2px 10px; border-radius: 999px; font-size: 15px; font-weight: 800; white-space: nowrap">GRATUITO</strong></span></li>
-<li style="border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 20px 22px; display: flex; gap: 18px; align-items: center; background: rgba(255,255,255,0.03)"><span aria-hidden="true" style="font-size: 32px; font-weight: 800; line-height: 1; color: #00A0DC">+</span><span style="font-size: 18px; line-height: 1.4">Comparamos ofertas de distintas entidades bancarias</span></li>
-<li style="border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 20px 22px; display: flex; gap: 18px; align-items: center; background: rgba(255,255,255,0.03)"><span aria-hidden="true" style="font-size: 32px; font-weight: 800; line-height: 1; color: #00A0DC">+</span><span style="font-size: 18px; line-height: 1.4">Nos encargamos de toda la gestión, de principio a fin</span></li>
-<li style="border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 20px 22px; display: flex; gap: 18px; align-items: center; background: rgba(255,255,255,0.03)"><span aria-hidden="true" style="font-size: 32px; font-weight: 800; line-height: 1; color: #00A0DC">+</span><span style="font-size: 18px; line-height: 1.4">Total transparencia en cada paso, sin sorpresas en la firma</span></li>
+<li style="border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 20px 22px; display: flex; gap: 18px; align-items: center; background: rgba(255,255,255,0.03)"><span aria-hidden="true" style="font-size: 32px; font-weight: 800; line-height: 1; color: #00A0DC">+</span><span style="font-size: 18px; line-height: 1.4">Comparamos ofertas de varios bancos</span></li>
+<li style="border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 20px 22px; display: flex; gap: 18px; align-items: center; background: rgba(255,255,255,0.03)"><span aria-hidden="true" style="font-size: 32px; font-weight: 800; line-height: 1; color: #00A0DC">+</span><span style="font-size: 18px; line-height: 1.4">Nos encargamos de la gestión con el banco</span></li>
+<li style="border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 20px 22px; display: flex; gap: 18px; align-items: center; background: rgba(255,255,255,0.03)"><span aria-hidden="true" style="font-size: 32px; font-weight: 800; line-height: 1; color: #00A0DC">+</span><span style="font-size: 18px; line-height: 1.4">Sabes lo que vas a firmar antes de llegar al notario</span></li>
 </ul>
+</div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" style="max-width: 1280px; margin: 0 auto; padding: clamp(72px, 9vw, 128px) clamp(20px, 4vw, 56px)">
+<div style="display: flex; flex-wrap: wrap; gap: 48px 72px; align-items: center">
+<div class="rv" style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 26px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #007DB0">Quiénes somos</p>
+<h2 style="margin: 0; font-size: clamp(36px, 4.6vw, 60px); line-height: 0.98; letter-spacing: -0.035em; font-weight: 800; text-transform: uppercase">Conoce <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; text-transform: none">Propitae</span></h2>
+<p style="margin: 0; font-size: clamp(19px, 1.8vw, 23px); line-height: 1.42">Somos asesores inmobiliarios independientes. También hemos sido clientes y sabemos lo que es firmar sin entender. Por eso te lo explicamos todo con calma y llevamos personalmente cada operación.</p>
+<p style="margin: 0; font-size: 18px; line-height: 1.55; color: #44474C">Trabajamos en el Corredor del Henares y en toda la Comunidad de Madrid.</p>
+<p style="margin: 6px 0 0; padding-left: 20px; border-left: 3px solid #00A0DC; font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.2; color: #0B0B0C"><span style="display: block; font-family: 'Inter Tight', sans-serif; font-style: normal; font-size: 16px; font-weight: 600; color: #44474C; margin-bottom: 8px">Tratamos a cada cliente como nos gustaría que nos trataran.</span>«Díganle al justo que le irá bien». <span style="font-family: 'Inter Tight', sans-serif; font-style: normal; font-size: 14px; color: #5A5F66">Isaías 3:10</span></p>
+</div>
+<div style="flex: 1 1 460px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start">
+<figure class="lift zoom rv d1" style="margin: 0; display: flex; flex-direction: column; border: 1.5px solid #0B0B0C; border-radius: 26px; overflow: clip; background: #FFFFFF">
+<div style="aspect-ratio: 4 / 5; overflow: clip; background: #E6F5FB"><img src="assets/img/wilson.webp" alt="Wilson Vásquez, asesor inmobiliario" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%; display: block"></div>
+<figcaption style="padding: 16px 18px; display: flex; flex-direction: column; gap: 2px; background: #FFFFFF; border-top: 1.5px solid #0B0B0C"><strong style="font-size: 19px; font-weight: 800"><a href="equipo/wilson-vasquez/" style="color: inherit; text-decoration: none">Wilson Vásquez</a></strong><span style="font-size: 15px; color: #44474C">Asesor inmobiliario</span></figcaption>
+</figure>
+<figure class="lift zoom tocolor rv d2" style="margin: 48px 0 0; display: flex; flex-direction: column; border: 1.5px solid #0B0B0C; border-radius: 26px; overflow: clip; background: #FFFFFF">
+<div style="aspect-ratio: 4 / 5; overflow: clip; background: #E6F5FB"><img src="assets/img/alexandra.webp" alt="Alexandra Pilapanta, asesora inmobiliaria" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%; display: block"></div>
+<figcaption style="padding: 16px 18px; display: flex; flex-direction: column; gap: 2px; background: #FFFFFF; border-top: 1.5px solid #0B0B0C"><strong style="font-size: 19px; font-weight: 800"><a href="equipo/alexandra-pilapanta/" style="color: inherit; text-decoration: none">Alexandra Pilapanta</a></strong><span style="font-size: 15px; color: #44474C">Asesora inmobiliaria</span></figcaption>
+</figure>
+</div>
 </div>
 </section>
 
@@ -594,25 +519,13 @@ La inmobiliaria de personas para personas
 <label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; font-weight: 600">Nombre<input type="text" name="nombre" placeholder="Tu nombre" required autocomplete="name" maxlength="80" style="border: 1px solid #8A8F95; border-radius: 14px; padding: 15px 16px; font-size: 16px; font-weight: 400"></label>
 <label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; font-weight: 600">Teléfono<input type="tel" name="telefono" placeholder="600 000 000" autocomplete="tel" maxlength="20" style="border: 1px solid #8A8F95; border-radius: 14px; padding: 15px 16px; font-size: 16px; font-weight: 400"></label>
 </div>
-<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; font-weight: 600">Email<input type="email" name="email" placeholder="tu@email.com" required autocomplete="email" maxlength="120" style="border: 1px solid #8A8F95; border-radius: 14px; padding: 15px 16px; font-size: 16px; font-weight: 400"></label>
-<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; font-weight: 600">Mensaje<textarea name="mensaje" rows="4" maxlength="2000" placeholder="Dirección aproximada, tipo de vivienda, qué buscas…" style="border: 1px solid #8A8F95; border-radius: 14px; padding: 15px 16px; font-size: 16px; font-weight: 400; resize: vertical"></textarea></label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; font-weight: 600">Email (opcional)<input type="email" name="email" placeholder="tu@email.com" autocomplete="email" maxlength="120" style="border: 1px solid #8A8F95; border-radius: 14px; padding: 15px 16px; font-size: 16px; font-weight: 400"></label>
+<label style="display: flex; flex-direction: column; gap: 8px; font-size: 15px; font-weight: 600">Mensaje (opcional)<textarea name="mensaje" rows="4" maxlength="2000" placeholder="Dirección aproximada, tipo de vivienda, qué buscas…" style="border: 1px solid #8A8F95; border-radius: 14px; padding: 15px 16px; font-size: 16px; font-weight: 400; resize: vertical"></textarea></label>
 <label style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; line-height: 1.4; color: #44474C"><input type="checkbox" name="privacidad" value="Acepta" required style="margin-top: 3px"> Acepto la <a href="privacidad/">política de privacidad</a> y que me contactéis para responder a mi consulta.</label>
 <label style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; font-size: 15px; font-weight: 600">Para evitar spam: ¿cuánto es <span id="suma-a">3</span> + <span id="suma-b">4</span>?<input type="text" name="verificacion" inputmode="numeric" pattern="[0-9]{1,2}" required autocomplete="off" aria-describedby="form-estado" style="width: 80px; border: 1px solid #8A8F95; border-radius: 14px; padding: 12px 14px; font-size: 16px; font-weight: 400"></label>
 <p id="form-estado" class="form-estado" role="status" aria-live="polite" hidden></p>
 <button type="submit" style="background: #0B0B0C; color: #FFFFFF; border: none; border-radius: 999px; padding: 18px 28px; font-size: 17px; font-weight: 700; cursor: pointer">Enviar consulta</button>
 </form>
-</section>
-
-<!-- CTA FINAL -->
-<section style="padding: 0 clamp(12px, 3vw, 40px) clamp(56px, 7vw, 88px)">
-<div style="max-width: 1360px; margin: 0 auto; background: #0B0B0C; color: #FFFFFF; border-radius: 32px; position: relative; overflow: clip">
-<img class="kb" src="assets/img/edificio.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
-<div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(11,11,12,0.68)"></div>
-<div style="position: relative; padding: clamp(72px, 10vw, 140px) clamp(24px, 5vw, 64px); display: flex; flex-direction: column; align-items: center; gap: 30px; text-align: center">
-<a class="btn" href="#contacto" style="background: #FFFFFF; color: #0B0B0C; text-decoration: none; padding: 15px 30px; border-radius: 999px; font-size: 18px; font-weight: 700">Vende tu casa con Propitae</a>
-<p style="margin: 0; font-size: clamp(30px, 4.4vw, 60px); line-height: 1; letter-spacing: -0.035em; font-weight: 800; text-transform: uppercase; max-width: 1000px">En precio, reduciendo los plazos<br><span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; color: #00A0DC">y sin complicaciones.</span></p>
-</div>
-</div>
 </section>
 
 <!-- FOOTER -->
