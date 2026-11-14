@@ -1,0 +1,29 @@
+# Regenera el catálogo, el blog, sitemap.xml y llms.txt cuando cambian sus datos.
+name: Generar páginas
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'inmuebles/inmuebles.json'
+      - 'tools/blog/**'
+      - 'tools/generar.py'
+      - 'tools/llms-base.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install markdown
+      - run: python3 tools/generar.py
+      - name: Guardar las páginas generadas
+        run: |
+          git config user.name "propitae-bot"
+          git config user.email "hola@propitae.es"
+          git add -A
+          git diff --cached --quiet || (git commit -m "Páginas generadas" && git push)

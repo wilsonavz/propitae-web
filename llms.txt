@@ -1,34 +1,58 @@
 # Propitae
 
-> Propitae es un equipo de asesores inmobiliarios independientes en el Corredor del Henares y la Comunidad de Madrid (España), colaboradores de Huspy. Lema: «La inmobiliaria de personas para personas». Ayuda a vender vivienda, a comprar o invertir (Personal Shopper inmobiliario) y a conseguir financiación hipotecaria.
+> Propitae es un equipo de asesores inmobiliarios independientes en Torrejón de Ardoz, el Corredor del Henares y la Comunidad de Madrid (España), colaboradores de Huspy. Lema: «La inmobiliaria de personas para personas». Ayuda a vender vivienda, a comprar o invertir (Personal Shopper inmobiliario) y a conseguir financiación hipotecaria. Solo cobra si la operación se cierra.
+
+Este archivo resume la web para asistentes de IA. La versión con los artículos completos está en https://propitae.es/llms-full.txt.
 
 ## Forma de trabajar
 
 - Comprador y propietario se conocen y negocian cara a cara en cuanto hay un comprador interesado.
 - El dinero va directo al propietario: las arras y los pagos se hacen entre las partes. Propitae nunca cobra dinero en nombre de nadie.
-- Valoraciones con precio real de mercado, sin inflarlas para conseguir el encargo.
-- Solo cobra si la vivienda se vende.
+- Valoraciones con precio real de mercado, basadas en datos, sin inflarlas para conseguir el encargo.
+- Revisión técnica de la vivienda por dentro antes de comprar (instalación eléctrica, conservación, calidades y qué habría que arreglar).
+- Solo cobra si la operación se cierra. La primera valoración es gratuita y sin compromiso.
 
 ## Servicios
 
-- Venta de viviendas, con dos planes. Ambos incluyen valoración, nota simple, portales nacionales e internacionales, fotografía profesional, vídeo y apoyo legal y administrativo. El plan Premium añade tour 3D Matterport, planos, certificado energético, publicidad en redes sociales y difusión entre inversores; el propietario puede seguir vendiendo por su cuenta. Tiempo medio de venta con Premium: 60 días (dato de la red Huspy). Plan Estándar: hasta 4 meses.
-- Personal Shopper inmobiliario: para inversores y para compradores sin tiempo para buscar. Incluye búsqueda, visitas, negociación, estudio de rentabilidad y revisión de la vivienda por dentro (instalación eléctrica, conservación, calidades y qué habría que arreglar).
-- Financiación hipotecaria: estudio gratuito de capacidad de compra, comparación de ofertas de varios bancos y gestión con el banco. Experiencia con clientes a los que se les había negado la hipoteca.
+- Venta de viviendas, con dos planes. Ambos incluyen valoración, nota simple, portales nacionales e internacionales, fotografía profesional, vídeo y apoyo legal y administrativo. El plan Premium (en exclusiva) añade tour 3D, planos, certificado energético, publicidad en redes sociales y difusión entre inversores; aun así, el propietario puede vender por su cuenta. Tiempo medio de venta con Premium: 60 días (dato de la red Huspy). Plan Estándar (sin exclusiva): hasta 4 meses (red Huspy).
+- Personal Shopper inmobiliario: para compradores sin tiempo o experiencia y para inversores. Búsqueda, visitas, negociación, estudio de rentabilidad y coste de reforma.
+- Financiación hipotecaria: estudio gratuito de capacidad de compra, comparación de ofertas de varios bancos y gestión del proceso, con especialistas como Bayteca (Grupo Huspy) y Alfa Credit. Propitae no concede financiación ni decide su aprobación.
+- Valoración de inmuebles especiales (locales alquilados, suelo, edificios, cambios de uso) por perfiles de comprador: usuario, inversor, promotor y transformador.
 
 ## Equipo
 
-- [Wilson Vásquez](https://propitae.es/equipo/wilson-vasquez/): asesor inmobiliario. Técnico en edificación y electricista de profesión. Personal Shopper e inversión.
-- [Alexandra Pilapanta](https://propitae.es/equipo/alexandra-pilapanta/): asesora inmobiliaria. Venta, compra y financiación hipotecaria.
+- [Wilson Vásquez](https://propitae.es/equipo/wilson-vasquez/): director y asesor inmobiliario. Técnico Superior en Proyectos de Edificación y Obra Civil. Personal Shopper, inversión y análisis técnico de viviendas.
+- [Alexandra Pilapanta](https://propitae.es/equipo/alexandra-pilapanta/): asesora inmobiliaria. Más de 20 años en administración y atención al cliente. Venta, compra y financiación hipotecaria.
 
 ## Contacto
 
 - Teléfono y WhatsApp: +34 665 288 919 (Wilson) · +34 687 691 505 (Alexandra)
 - Email: hola@propitae.es
-- Zona: Corredor del Henares y toda la Comunidad de Madrid (con sede en Torrejón de Ardoz)
+- Zona: Torrejón de Ardoz, Corredor del Henares (Coslada, San Fernando de Henares, Alcalá de Henares, Meco, Azuqueca de Henares, Guadalajara) y toda la Comunidad de Madrid
 - Web: https://propitae.es/
 
-## Páginas
+## Páginas principales
 
 - [Inicio](https://propitae.es/): forma de trabajar, servicios, planes de venta y contacto.
+- [Inmuebles en venta](https://propitae.es/inmuebles/)
+- [Blog](https://propitae.es/blog/): guías sobre vender, comprar, hipotecas e inversión en Torrejón, el Corredor del Henares y Madrid.
 - [Equipo](https://propitae.es/equipo/)
-- [Blog](https://propitae.es/blog/): guías sobre vender, comprar, hipotecas e inversión en Madrid.
+
+## Inmuebles
+
+- [Casa en venta en Pioz con piscina cubierta y 3.000 m² de parcela](https://propitae.es/inmuebles/casa-en-venta-pioz-los-charquillos/): Casa de 647 m² con parcela de 3.000 m², 8 habitaciones, 7 baños, piscina cubierta y apartamento independiente en Los Charquillos, Pioz (Guadalajara). 688.000 €. Estado: en venta.
+
+## Artículos del blog
+
+- [Cuánto vale un piso en Torrejón de Ardoz en 2026](https://propitae.es/blog/cuanto-vale-un-piso-en-torrejon-de-ardoz/): Precio del metro cuadrado en Torrejón de Ardoz en 2026 según portales, notarías y tasaciones, por qué no coinciden y cómo saber lo que vale tu piso.
+- [Gastos de vender una casa en la Comunidad de Madrid en 2026](https://propitae.es/blog/gastos-de-vender-una-casa-en-madrid/): Qué paga el vendedor al vender una vivienda en la Comunidad de Madrid: IRPF por la ganancia, plusvalía municipal, cancelación de hipoteca, certificado energético y honorarios.
+- [Plusvalía municipal en Torrejón de Ardoz: cuánto se paga al vender](https://propitae.es/blog/plusvalia-municipal-torrejon-de-ardoz/): Cómo se calcula la plusvalía municipal al vender en Torrejón de Ardoz: tipo del 30 %, coeficientes por años, plazo de 30 días hábiles y cuándo no se paga.
+- [Vender tu casa en exclusiva o sin exclusiva: qué te conviene](https://propitae.es/blog/vender-en-exclusiva-o-sin-exclusiva/): Diferencias entre vender tu vivienda con una inmobiliaria en exclusiva o sin exclusiva: tiempos, servicios, precio y qué pasa si encuentras comprador por tu cuenta.
+- [Cómo preparar tu casa para venderla antes y mejor](https://propitae.es/blog/como-preparar-tu-casa-para-venderla/): Qué hacer antes de poner tu casa a la venta: precio realista, pequeños arreglos, orden, luz y fotos profesionales para que se venda antes y sin rebajas.
+- [Documentos para vender un piso: la lista completa](https://propitae.es/blog/documentos-para-vender-un-piso/): Qué documentos necesitas para vender un piso en la Comunidad de Madrid: escritura, nota simple, certificado energético, IBI, certificado de la comunidad y más.
+- [Cuánta hipoteca puedo pedir: cálculo con tu sueldo en 2026](https://propitae.es/blog/cuanta-hipoteca-puedo-pedir/): Cómo calcular cuánta hipoteca te pueden dar: el 80 % de financiación, la regla del 30-35 % de los ingresos, el ahorro necesario y el euríbor en 2026, con ejemplos.
+- [Gastos de comprar una vivienda de segunda mano en Madrid en 2026](https://propitae.es/blog/gastos-de-comprar-una-vivienda-en-madrid/): Cuánto cuesta comprar una vivienda de segunda mano en la Comunidad de Madrid: ITP del 6 %, bonificaciones, notaría, registro, gestoría y tasación, y cuánto ahorro necesitas.
+- [Personal Shopper inmobiliario: qué es, qué hace y cuánto cuesta](https://propitae.es/blog/que-es-un-personal-shopper-inmobiliario/): Qué hace un Personal Shopper inmobiliario al comprar vivienda o invertir en Madrid y el Corredor del Henares: búsqueda, visitas, revisión técnica, negociación y honorarios.
+- [Contrato de arras: qué es, tipos y qué pasa si alguien se echa atrás](https://propitae.es/blog/arras-que-son-y-como-funcionan/): Qué es el contrato de arras al comprar una vivienda, la diferencia entre arras penitenciales y confirmatorias, cuánto se entrega y qué pasa si alguien desiste.
+- [Comprar un piso para alquilar en el Corredor del Henares: cuánto rinde de verdad](https://propitae.es/blog/comprar-para-alquilar-corredor-del-henares/): Cómo calcular la rentabilidad de comprar un piso para alquilar en Torrejón, Alcalá o Coslada: rentabilidad bruta y neta, gastos que no se ven y un ejemplo con números.
+- [Cómo se valora un local alquilado (y por qué no vale lo mismo para todos)](https://propitae.es/blog/como-se-valora-un-local-alquilado/): Cómo se calcula el valor de un local comercial alquilado: capitalización de la renta, rentabilidad exigida, estado del contrato y por qué cada tipo de comprador paga un precio distinto.

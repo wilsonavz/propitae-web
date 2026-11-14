@@ -1,0 +1,78 @@
+{
+  "_ayuda": "Catálogo de propitae.es. Cada bloque es un inmueble. Tras cambiar este archivo, se ejecuta tools/generar.py (lo hace solo la acción de GitHub). 'indexar': false lo publica sin que Google lo muestre todavía. 'estado': 'En venta', 'Reservado' o 'Vendido'. Nunca datos del propietario ni la dirección exacta.",
+  "inmuebles": [
+    {
+      "slug": "casa-en-venta-pioz-los-charquillos",
+      "indexar": true,
+      "estado": "En venta",
+      "exclusiva": true,
+      "ref": "HAX00JEX",
+      "tipo": "Casa independiente",
+      "tipo_schema": "SingleFamilyResidence",
+      "operacion": "venta",
+      "titulo": "Casa en venta en Pioz",
+      "titulo_remate": "con piscina cubierta",
+      "titulo_seo": "Casa en venta en Pioz con piscina cubierta y 3.000 m² de parcela",
+      "descripcion_seo": "Casa de 647 m² con parcela de 3.000 m², 8 habitaciones, 7 baños, piscina cubierta y apartamento independiente en Los Charquillos, Pioz (Guadalajara). 688.000 €.",
+      "zona": "Urbanización Los Charquillos",
+      "municipio": "Pioz",
+      "provincia": "Guadalajara",
+      "precio": 688000,
+      "superficie": 647,
+      "parcela": 3000,
+      "habitaciones": 8,
+      "banos": 7,
+      "ano": 2009,
+      "certificado": "D",
+      "ibi_anual": 1175,
+      "comunidad": "50 €",
+      "conservacion": "Buen estado",
+      "orientacion": "Norte, sur, este y oeste",
+      "disponibilidad": "Disponible",
+      "dossier": "/dossier/Casa-en-venta-en-Pioz-PROPITAE.pdf",
+      "fecha": "2026-11-06",
+      "entrada": "Espacio, privacidad y naturaleza para toda la familia, en una parcela de 3.000 m² rodeada de arbolado.",
+      "descripcion": [
+        "La vivienda principal tiene seis dormitorios y cinco baños completos: sitio de sobra para la familia, los amigos y las visitas.",
+        "Además, cuenta con un apartamento independiente que da mucho juego: invitados con su propia intimidad, personal de servicio, un despacho o una consulta.",
+        "Fuera, la piscina cubierta se disfruta todo el año, el porche invita a sobremesas largas y la parcela suma jardín, zona de juegos, huerto con frutales y placas solares."
+      ],
+      "rasgos": [
+        ["Piscina cubierta", "Para bañarse en todas las estaciones, no solo en verano."],
+        ["Apartamento independiente", "Para invitados, personal de servicio o tu propio despacho."],
+        ["Placas solares", "Más eficiencia energética y más autosuficiencia en casa."],
+        ["Tres terrazas", "Distintas orientaciones para buscar el sol o la sombra."],
+        ["Jardín y zona de juegos", "Espacio para que los niños jueguen y tú desconectes."],
+        ["Huerto con frutales", "Fruta de tus propios árboles, sin salir de casa."]
+      ],
+      "comodidades": ["Piscina", "Jardín", "Terraza", "Plaza de garaje", "Cocina equipada", "Armarios empotrados", "Aire acondicionado", "Bomba de calor y frío", "Sala de billar"],
+      "potencial": [
+        ["Para una familia grande", "Seis dormitorios en la vivienda principal y espacio para crecer."],
+        ["Para trabajar desde casa", "El apartamento independiente puede ser tu despacho o tu consulta."],
+        ["Para recibir", "Invitados con su propio espacio, comidas en el porche y tardes de piscina."],
+        ["Para desconectar", "3.000 m² de jardín, huerto y frutales rodeados de arbolado."]
+      ],
+      "fotos": [
+        ["01", "Vista aérea de la casa, la piscina y el jardín"],
+        ["02", "Piscina cubierta para usarla todo el año"],
+        ["03", "Salón amplio con zona de comedor"],
+        ["04", "Jardín con arbolado"],
+        ["05", "La parcela, rodeada de verde"],
+        ["06", "Placas solares en la propia parcela"],
+        ["07", "Terraza con vistas abiertas"],
+        ["08", "Porche junto a la piscina"],
+        ["09", "Sala de estar con rincón de trabajo"],
+        ["10", "Sala de estar con zona de sofás"],
+        ["11", "Cocina equipada con office"],
+        ["12", "Recibidor con escalera a la planta superior"],
+        ["13", "Dormitorio en suite con armarios empotrados"],
+        ["14", "Baño completo con ducha"],
+        ["15", "Dormitorio doble"],
+        ["16", "Dormitorio con armario empotrado"],
+        ["17", "Dormitorio con armario empotrado"],
+        ["18", "Sala de billar con salida al exterior"],
+        ["19", "Garaje con puerta automática y almacenaje"]
+      ]
+    }
+  ]
+}
