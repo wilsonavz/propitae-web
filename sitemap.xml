@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Añade aquí cada página pública nueva (artículos del blog, inmuebles...). -->
+<!-- Generado por tools/generar.py: no editar a mano. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://propitae.es/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://propitae.es/equipo/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://propitae.es/equipo/wilson-vasquez/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://propitae.es/equipo/alexandra-pilapanta/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://propitae.es/blog/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://propitae.es/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://propitae.es/blog/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://propitae.es/equipo/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://propitae.es/equipo/wilson-vasquez/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://propitae.es/equipo/alexandra-pilapanta/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://propitae.es/aviso-legal/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://propitae.es/privacidad/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://propitae.es/cookies/</loc><lastmod>2026-11-14</lastmod></url>
 </urlset>
