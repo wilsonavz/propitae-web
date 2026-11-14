@@ -3,7 +3,7 @@
   "inmuebles": [
     {
       "slug": "casa-en-venta-pioz-los-charquillos",
-      "indexar": false,
+      "indexar": true,
       "estado": "En venta",
       "exclusiva": true,
       "ref": "HAX00JEX",
