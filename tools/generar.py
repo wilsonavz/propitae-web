@@ -108,7 +108,7 @@ def cabeza(depth, titulo, desc, url, imagen='/assets/img/og-propitae.jpg', robot
 def cabecera(depth, actual=''):
     r = rel(depth)
     enl = [('Vender', '#vender', ''), ('Personal Shopper', '#personal-shopper', ''), ('Financiación', '#financiar', ''),
-           ('Inmuebles', 'inmuebles/', 'inmuebles'), ('Blog', 'blog/', 'blog')]
+           ('Blog', 'blog/', 'blog')]
     nav = ''.join(f'<a href="{r}{h}"{" aria-current=\"page\"" if k and k == actual else ""}>{n}</a>' for n, h, k in enl)
     return f'''<header class="site-header">
 <div class="wrap">
@@ -127,25 +127,8 @@ def cabecera(depth, actual=''):
 def pie(depth, scripts=()):
     r = rel(depth)
     sc = ''.join(f'\n<script src="{r}{s}" defer></script>' for s in scripts)
-    return f'''<footer class="site-footer">
-<div class="wrap">
-<div class="footer-top">
-<img class="logo" src="{r}assets/img/propitae-blanco.svg" alt="Propitae, la inmobiliaria de personas para personas" width="320" height="91">
-<div class="footer-cols">
-<nav aria-label="Servicios"><h2>Servicios</h2>
-<a href="{r}#vender">Vender tu casa</a><a href="{r}#personal-shopper">Personal Shopper</a><a href="{r}#financiar">Financiación</a></nav>
-<nav aria-label="Propitae"><h2>Propitae</h2>
-<a href="{r}inmuebles/">Inmuebles</a><a href="{r}blog/">Blog</a><a href="{r}equipo/">Equipo</a><a href="{r}#contacto">Contacto</a></nav>
-<nav aria-label="Legal"><h2>Legal</h2>
-<a href="{r}aviso-legal/">Aviso legal</a><a href="{r}privacidad/">Privacidad</a><a href="{r}cookies/">Cookies</a></nav>
-</div>
-</div>
-<div class="footer-bottom">
-<span>© {datetime.date.today().year} Propitae · Asesores inmobiliarios independientes · Madrid</span>
-<span class="huspy">Con el respaldo de <img src="{r}assets/img/huspy-blanco.svg" alt="Huspy" width="70" height="18"></span>
-</div>
-</div>
-</footer>
+    pie_html = (RAIZ / 'tools' / 'pie.html').read_text(encoding='utf-8').strip()  # el mismo pie que la portada
+    return pie_html + f'''
 <a class="wa-float" href="https://wa.me/{WA}?text=Hola%2C%20os%20escribo%20desde%20la%20web%20propitae.es%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
 {SVG_WA}
 <span>WhatsApp</span>
