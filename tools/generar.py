@@ -347,6 +347,7 @@ def leer_articulos():
         a['minutos'] = max(3, round(a['palabras'] / 220))
         if a.get('publicar', True):
             arts.append(a)
+    arts.sort(key=lambda a: a.get('orden', 99))
     return sorted(arts, key=lambda a: a['fecha'], reverse=True)
 
 

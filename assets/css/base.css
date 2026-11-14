@@ -230,3 +230,6 @@ a.card:hover{translate:0 -6px;box-shadow:0 22px 44px -22px rgba(0,0,0,.3);border
   @keyframes pSube{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none !important;animation:none !important;}html{scroll-behavior:auto;}}
+.prose a.btn{text-decoration:none;}
+.prose a.btn-azul,.prose a.btn-azul:hover{color:var(--negro);}
+.prose a.btn-negro,.prose a.btn-negro:hover{color:#FFF;}
