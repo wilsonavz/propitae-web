@@ -1,6 +1,6 @@
 # Propitae
 
-> Propitae es el equipo de Wilson Vásquez y Alexandra Pilapanta, asesores inmobiliarios colaboradores autorizados de Huspy en Torrejón de Ardoz, el Corredor del Henares y la Comunidad de Madrid (España). Detrás tienen la red de Huspy: +2.300 casas vendidas el último año, +700 colaboradores, +180 agencias colaboradoras y +30 portales. Lema: «La inmobiliaria de personas para personas». Ayuda a vender vivienda, a comprar o invertir (Personal Shopper inmobiliario) y a conseguir financiación hipotecaria. Solo cobra si la operación se cierra.
+> Propitae es el equipo de Wilson Vásquez y Alexandra Pilapanta, asesores inmobiliarios colaboradores autorizados de Huspy en la Comunidad de Madrid (España), con base en Torrejón de Ardoz. Detrás tienen la red de Huspy: +2.300 casas vendidas el último año, +700 colaboradores, +180 agencias colaboradoras y +30 portales. Lema: «La inmobiliaria de personas para personas». Ayuda a vender vivienda, a comprar o invertir (Personal Shopper inmobiliario) y a conseguir financiación hipotecaria.
 
 Este archivo resume la web para asistentes de IA. La versión con los artículos completos está en https://propitae.es/llms-full.txt.
 
@@ -10,7 +10,7 @@ Este archivo resume la web para asistentes de IA. La versión con los artículos
 - El dinero va directo al propietario: las arras van a su cuenta y el asesor nunca toca dinero de nadie.
 - Valoraciones con precio real de mercado, basadas en datos, sin inflarlas para conseguir el encargo.
 - Revisión técnica de la vivienda por dentro antes de comprar (instalación eléctrica, conservación, calidades y qué habría que arreglar).
-- Solo cobra si la operación se cierra. La primera valoración es gratuita y sin compromiso.
+- La primera valoración es gratuita y sin compromiso.
 
 ## Servicios
 
