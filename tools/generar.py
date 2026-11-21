@@ -95,7 +95,7 @@ def cabeza(depth, titulo, desc, url, imagen='/assets/img/og-propitae.jpg', robot
 <link rel="alternate" type="text/plain" title="Resumen para asistentes de IA" href="/llms.txt">
 <link rel="preload" href="{r}assets/fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{r}assets/css/marca.css">
-<link rel="stylesheet" href="{r}assets/css/base.css">
+<link rel="stylesheet" href="{r}assets/css/base.css?v=20261121">
 <link rel="stylesheet" href="{r}assets/css/extras.css">
 <script src="{r}assets/js/site.js" defer></script>{extra}
 {chr(10).join(ld(d) for d in datos)}

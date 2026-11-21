@@ -8,9 +8,9 @@
   "autor": "wilson",
   "fecha": "2026-11-14",
   "claves": ["vender piso en exclusiva", "exclusiva inmobiliaria", "nota de encargo", "vender casa con inmobiliaria"],
-  "respuesta": "En exclusiva, una sola agencia se encarga de la venta y suele invertir más en ella; sin exclusiva, puedes trabajar con varias a la vez. Con nuestro plan Premium (en exclusiva) el tiempo medio de venta es de <strong>60 días</strong> y, aun así, <strong>si encuentras comprador por tu cuenta, puedes vender por tu cuenta</strong>. Con el plan Estándar, sin exclusiva, el tiempo medio es de hasta 4 meses (datos de la red Huspy).",
+  "respuesta": "En exclusiva, una sola agencia se encarga de la venta y suele invertir más en ella; sin exclusiva, puedes trabajar con varias a la vez. Con nuestro plan Premium (en exclusiva) el tiempo medio de venta es de <strong>60 días</strong> porque toda la red de Huspy trabaja tu casa a la vez. Con el plan Estándar, sin exclusiva, el tiempo medio es de hasta 4 meses (datos de la red Huspy).",
   "faq": [
-    ["Si firmo en exclusiva, ¿puedo vender yo mi casa?", "Con nuestro plan Premium, sí: si encuentras comprador por tu cuenta, puedes vender por tu cuenta. Léelo siempre en la nota de encargo, porque no todas las agencias lo permiten."],
+    ["Si firmo en exclusiva, ¿puedo vender yo mi casa?", "Durante el plazo que acordamos, la venta la llevamos nosotros con toda la red de Huspy; si la vendes por tu cuenta en ese plazo, los honorarios se pagan igual. Por eso el plazo lo pactamos contigo y lo verás claro en la nota de encargo antes de firmar."],
     ["¿Cuánto dura una exclusiva?", "Depende de lo que firmes. Pregunta siempre el plazo y cómo se termina el encargo antes de firmar."],
     ["¿Es más cara la exclusiva?", "Los honorarios se acuerdan con cada propietario y solo se cobran si la casa se vende. La diferencia está en lo que se invierte en la venta."]
   ]
@@ -33,7 +33,6 @@
 | Publicidad en redes y difusión entre inversores | Sí | — |
 | Compradores con hipoteca preaprobada | Sí | — |
 | Tiempo medio de venta (red Huspy) | **60 días** | Hasta 4 meses |
-| Si encuentras comprador por tu cuenta | **Puedes vender por tu cuenta** | Puedes vender por tu cuenta |
 
 ## Cuándo compensa cada uno
 
