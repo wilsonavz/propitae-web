@@ -95,7 +95,7 @@ def cabeza(depth, titulo, desc, url, imagen='/assets/img/og-propitae.jpg', robot
 <link rel="alternate" type="text/plain" title="Resumen para asistentes de IA" href="/llms.txt">
 <link rel="preload" href="{r}assets/fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{r}assets/css/marca.css">
-<link rel="stylesheet" href="{r}assets/css/base.css">
+<link rel="stylesheet" href="{r}assets/css/base.css?v=20261121">
 <link rel="stylesheet" href="{r}assets/css/extras.css">
 <script src="{r}assets/js/site.js" defer></script>{extra}
 {chr(10).join(ld(d) for d in datos)}
@@ -113,8 +113,8 @@ def cabecera(depth, actual=''):
     return f'''<header class="site-header">
 <div class="wrap">
 <a class="brand" href="{r or './'}" aria-label="Propitae, inicio">
-<img src="{r}assets/img/propitae-blanco-mark.svg" alt="Propitae" width="172" height="26">
-<span class="by">By <img src="{r}assets/img/huspy-blanco.svg" alt="Huspy" width="54" height="14"></span>
+<img src="{r}assets/img/huspy-blanco.svg" alt="Huspy" width="85" height="22">
+<span class="by">Wilson y Alexandra</span>
 </a>
 <nav class="site-nav" aria-label="Principal">
 {nav}<a class="cta" href="{r}#contacto">Contactar</a>
