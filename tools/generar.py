@@ -67,7 +67,7 @@ def migas_html(items, depth, claro=False):
 
 
 # ---------------------------------------------------------------- piezas comunes
-def cabeza(depth, titulo, desc, url, imagen='/assets/img/og-propitae.jpg', robots='index, follow, max-image-preview:large', datos=(), tipo='website', extra=''):
+def cabeza(depth, titulo, desc, url, imagen='/assets/img/og-huspy.jpg', robots='index, follow, max-image-preview:large', datos=(), tipo='website', extra=''):
     r = rel(depth)
     return f'''<!doctype html>
 <html lang="es">
@@ -353,7 +353,7 @@ def articulo(a, todos):
     rel_arts = [x for x in todos if x['slug'] != a['slug'] and x['categoria'] == a['categoria']][:2] or [x for x in todos if x['slug'] != a['slug']][:2]
     mig = [('Inicio', '/'), ('Blog', '/blog/'), (a['titulo_corto'] if a.get('titulo_corto') else a['titulo'], None)]
     post = {'@context': 'https://schema.org', '@type': 'BlogPosting', 'headline': a['titulo'][:110], 'description': a['descripcion'],
-            'image': WEB + a.get('imagen', '/assets/img/og-propitae.jpg'), 'datePublished': a['fecha'], 'dateModified': a['modificado'],
+            'image': WEB + a.get('imagen', '/assets/img/og-huspy.jpg'), 'datePublished': a['fecha'], 'dateModified': a['modificado'],
             'inLanguage': 'es-ES', 'mainEntityOfPage': WEB + url, 'wordCount': a['palabras'], 'articleSection': a['categoria'],
             'keywords': ', '.join(a.get('claves', [])),
             'author': {'@id': WEB + au['url'] + '#persona', '@type': 'Person', 'name': au['nombre'], 'url': WEB + au['url']},
@@ -364,7 +364,7 @@ def articulo(a, todos):
     if a.get('faq'):
         datos.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
             {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': r}} for q, r in a['faq']]})
-    h = cabeza(d, f"{a.get('titulo_seo', a['titulo'])} | Propitae", a['descripcion'], url, a.get('imagen', '/assets/img/og-propitae.jpg'), datos=datos, tipo='article',
+    h = cabeza(d, f"{a.get('titulo_seo', a['titulo'])} | Propitae", a['descripcion'], url, a.get('imagen', '/assets/img/og-huspy.jpg'), datos=datos, tipo='article',
                extra=f'\n<meta property="article:published_time" content="{a["fecha"]}">\n<meta property="article:modified_time" content="{a["modificado"]}">\n<meta name="author" content="{E(au["nombre"])}">')
     h += cabecera(d, 'blog')
     h += f'''<main id="contenido">
