@@ -13,7 +13,7 @@
   "faq": [
     ["¿Cuál es el precio medio del metro cuadrado en Torrejón de Ardoz?", "Depende de la fuente: unos 3.190 €/m² en anuncios, unos 2.830 €/m² en compraventas escrituradas y unos 3.040 €/m² en tasaciones (datos de octubre de 2026). Para poner precio, lo más fiable es lo que se ha vendido de verdad."],
     ["¿Por qué mi piso vale menos que lo que piden mis vecinos?", "Porque lo que se pide en un anuncio no es lo que se paga. Entre el precio anunciado y el escriturado suele haber una diferencia de varios puntos, y cada piso tiene su planta, su estado y su orientación."],
-    ["¿Cuánto cuesta una valoración con Propitae?", "Nada. La primera valoración es gratuita y sin compromiso, con datos de ventas reales de tu zona."]
+    ["¿Cuánto cuesta una valoración con nosotros?", "Nada. La primera valoración es gratuita y sin compromiso, con datos de ventas reales de tu zona."]
   ],
   "fuentes": [
     ["Housfy · Precio de pisos en Torrejón de Ardoz (anuncio, venta y tasación), octubre de 2026", "https://housfy.com/precio-pisos/madrid/torrejon-de-ardoz"],

@@ -9,7 +9,7 @@
   "fecha": "2026-11-14",
   "claves": ["personal shopper inmobiliario", "asesor para comprar vivienda", "buscar piso para comprar", "personal shopper Madrid"],
   "lugares": ["Comunidad de Madrid", "Corredor del Henares"],
-  "respuesta": "Un Personal Shopper inmobiliario es un asesor que <strong>trabaja para ti como comprador</strong>: busca las viviendas que encajan contigo, hace la primera visita, revisa el estado por dentro, negocia el precio y te acompaña hasta la notaría. Con Propitae, los honorarios van del <strong>3 % al 5 % + IVA</strong> según la operación y se pagan solo si compras.",
+  "respuesta": "Un Personal Shopper inmobiliario es un asesor que <strong>trabaja para ti como comprador</strong>: busca las viviendas que encajan contigo, hace la primera visita, revisa el estado por dentro, negocia el precio y te acompaña hasta la notaría. Con nosotros, los honorarios van del <strong>3 % al 5 % + IVA</strong> según la operación y se pagan solo si compras.",
   "faq": [
     ["¿En qué se diferencia de una inmobiliaria normal?", "La inmobiliaria del anuncio trabaja para vender la casa de su cliente. El Personal Shopper trabaja para ti: su trabajo es que compres bien, no que compres esa casa."],
     ["¿Compensa pagar a alguien para buscar casa?", "Compensa si no tienes tiempo para visitar, si no conoces la zona, si quieres asegurarte del estado técnico de la vivienda o si vas a invertir y necesitas números fiables."],

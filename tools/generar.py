@@ -22,9 +22,9 @@ E = lambda s: html.escape(str(s if s is not None else ''), quote=True)
 
 AUTORES = {
     'wilson': {'nombre': 'Wilson Vásquez', 'url': '/equipo/wilson-vasquez/', 'foto': '/assets/img/wilson.webp',
-               'cargo': 'Asesor inmobiliario en Propitae. Técnico Superior en Proyectos de Edificación.'},
+               'cargo': 'Asesor inmobiliario de Huspy en Madrid. Técnico Superior en Proyectos de Edificación.'},
     'alexandra': {'nombre': 'Alexandra Pilapanta', 'url': '/equipo/alexandra-pilapanta/', 'foto': '/assets/img/alexandra.webp',
-                  'cargo': 'Asesora inmobiliaria en Propitae. Venta, compra y financiación hipotecaria.'},
+                  'cargo': 'Asesora inmobiliaria de Huspy en Madrid. Venta, compra y financiación hipotecaria.'},
 }
 
 
@@ -67,7 +67,7 @@ def migas_html(items, depth, claro=False):
 
 
 # ---------------------------------------------------------------- piezas comunes
-def cabeza(depth, titulo, desc, url, imagen='/assets/img/og-propitae.jpg', robots='index, follow, max-image-preview:large', datos=(), tipo='website', extra=''):
+def cabeza(depth, titulo, desc, url, imagen='/assets/img/og-huspy.jpg', robots='index, follow, max-image-preview:large', datos=(), tipo='website', extra=''):
     r = rel(depth)
     return f'''<!doctype html>
 <html lang="es">
@@ -250,7 +250,7 @@ def ficha_inmueble(i, todos):
 <ul class="rasgos">{''.join(f'<li><b>{E(a)}</b><span>{E(b)}</span></li>' for a, b in i['potencial'])}</ul>
 </section>""" if i.get('potencial') else ''}
 <section class="ficha-bloque rv"><h2>Cómo <span class="serif">trabajamos</span></h2>
-<p>Cuando haya un acuerdo, comprador y propietario os sentáis en la misma mesa para hablar de la casa. Las arras y los pagos se hacen directamente al propietario: nunca cobramos dinero en nombre de nadie.</p>
+<p>Cuando haya un acuerdo, comprador y propietario os sentáis en la misma mesa para hablar de la casa. Las arras van a la cuenta del propietario, con un contrato revisado por los abogados de Huspy.</p>
 <p>Si necesitas hipoteca, estudiamos tu caso a fondo y comparamos ofertas de varios bancos antes de que des el paso.</p>
 </section>
 </div>
@@ -353,7 +353,7 @@ def articulo(a, todos):
     rel_arts = [x for x in todos if x['slug'] != a['slug'] and x['categoria'] == a['categoria']][:2] or [x for x in todos if x['slug'] != a['slug']][:2]
     mig = [('Inicio', '/'), ('Blog', '/blog/'), (a['titulo_corto'] if a.get('titulo_corto') else a['titulo'], None)]
     post = {'@context': 'https://schema.org', '@type': 'BlogPosting', 'headline': a['titulo'][:110], 'description': a['descripcion'],
-            'image': WEB + a.get('imagen', '/assets/img/og-propitae.jpg'), 'datePublished': a['fecha'], 'dateModified': a['modificado'],
+            'image': WEB + a.get('imagen', '/assets/img/og-huspy.jpg'), 'datePublished': a['fecha'], 'dateModified': a['modificado'],
             'inLanguage': 'es-ES', 'mainEntityOfPage': WEB + url, 'wordCount': a['palabras'], 'articleSection': a['categoria'],
             'keywords': ', '.join(a.get('claves', [])),
             'author': {'@id': WEB + au['url'] + '#persona', '@type': 'Person', 'name': au['nombre'], 'url': WEB + au['url']},
@@ -364,7 +364,7 @@ def articulo(a, todos):
     if a.get('faq'):
         datos.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
             {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': r}} for q, r in a['faq']]})
-    h = cabeza(d, f"{a.get('titulo_seo', a['titulo'])} | Propitae", a['descripcion'], url, a.get('imagen', '/assets/img/og-propitae.jpg'), datos=datos, tipo='article',
+    h = cabeza(d, f"{a.get('titulo_seo', a['titulo'])} | Propitae", a['descripcion'], url, a.get('imagen', '/assets/img/og-huspy.jpg'), datos=datos, tipo='article',
                extra=f'\n<meta property="article:published_time" content="{a["fecha"]}">\n<meta property="article:modified_time" content="{a["modificado"]}">\n<meta name="author" content="{E(au["nombre"])}">')
     h += cabecera(d, 'blog')
     h += f'''<main id="contenido">
