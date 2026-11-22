@@ -13,7 +13,7 @@
   "faq": [
     ["¿Tengo que pagar IRPF si vendo mi vivienda habitual?", "Solo por la ganancia, si la hay. Queda exenta si reinviertes lo obtenido en otra vivienda habitual en un plazo de dos años, o si tienes más de 65 años y vendes tu vivienda habitual."],
     ["¿Quién paga la notaría en una compraventa?", "Salvo pacto, el vendedor paga la escritura de venta (la matriz) y el comprador la primera copia y lo posterior, según el artículo 1455 del Código Civil."],
-    ["¿Cuánto cobra Propitae por vender?", "Entre el 3 % y el 5 % + IVA según la operación, y solo si la casa se vende. Te lo explicamos con números en la primera visita."]
+    ["¿Cuánto cobráis por vender?", "Entre el 3 % y el 5 % + IVA según la operación. Te lo explicamos con números en la primera visita."]
   ],
   "fuentes": [
     ["Guía Fiscal · Ganancia patrimonial: escala del ahorro 2026 y exenciones", "https://guiafiscal.es/glosario/ganancia-patrimonial/"],

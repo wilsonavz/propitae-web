@@ -22,9 +22,9 @@ E = lambda s: html.escape(str(s if s is not None else ''), quote=True)
 
 AUTORES = {
     'wilson': {'nombre': 'Wilson Vásquez', 'url': '/equipo/wilson-vasquez/', 'foto': '/assets/img/wilson.webp',
-               'cargo': 'Asesor inmobiliario en Propitae. Técnico Superior en Proyectos de Edificación.'},
+               'cargo': 'Asesor inmobiliario de Huspy en Madrid. Técnico Superior en Proyectos de Edificación.'},
     'alexandra': {'nombre': 'Alexandra Pilapanta', 'url': '/equipo/alexandra-pilapanta/', 'foto': '/assets/img/alexandra.webp',
-                  'cargo': 'Asesora inmobiliaria en Propitae. Venta, compra y financiación hipotecaria.'},
+                  'cargo': 'Asesora inmobiliaria de Huspy en Madrid. Venta, compra y financiación hipotecaria.'},
 }
 
 
@@ -250,7 +250,7 @@ def ficha_inmueble(i, todos):
 <ul class="rasgos">{''.join(f'<li><b>{E(a)}</b><span>{E(b)}</span></li>' for a, b in i['potencial'])}</ul>
 </section>""" if i.get('potencial') else ''}
 <section class="ficha-bloque rv"><h2>Cómo <span class="serif">trabajamos</span></h2>
-<p>Cuando haya un acuerdo, comprador y propietario os sentáis en la misma mesa para hablar de la casa. Las arras y los pagos se hacen directamente al propietario: nunca cobramos dinero en nombre de nadie.</p>
+<p>Cuando haya un acuerdo, comprador y propietario os sentáis en la misma mesa para hablar de la casa. Las arras van a la cuenta del propietario, con un contrato revisado por los abogados de Huspy.</p>
 <p>Si necesitas hipoteca, estudiamos tu caso a fondo y comparamos ofertas de varios bancos antes de que des el paso.</p>
 </section>
 </div>

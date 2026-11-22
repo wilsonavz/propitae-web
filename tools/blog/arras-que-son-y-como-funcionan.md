@@ -12,7 +12,7 @@
   "faq": [
     ["¿Cuánto se paga de arras?", "La ley no fija un porcentaje. En la práctica suele pactarse en torno al 10 % del precio, pero se puede acordar otra cantidad."],
     ["¿Basta con citar el artículo 1454 en el contrato?", "No. El Tribunal Supremo ha dicho que la mera mención no basta: el contrato tiene que expresar claramente que las partes pueden desistir perdiendo o devolviendo duplicada la señal."],
-    ["¿A quién se paga la señal?", "Con Propitae, siempre directamente al propietario. Nunca cobramos dinero en nombre de nadie."]
+    ["¿A quién se paga la señal?", "Con nosotros, a la cuenta del propietario. Si en algún caso conviene que la guarde Huspy como depositaria, solo se hace con su autorización por escrito."]
   ],
   "fuentes": [
     ["Legal Today · Arras penitenciales y artículo 1454 del Código Civil", "https://www.legaltoday.com/?p=42987"],
@@ -51,4 +51,4 @@ Los tribunales interpretan las arras penitenciales de forma restrictiva. Si el c
 
 ## Cómo lo hacemos nosotros
 
-Comprador y vendedor se sientan en la misma mesa antes de firmar, leen juntos las condiciones y se resuelven las dudas. La señal se paga **directamente al propietario**: no la custodiamos ni la cobramos en nombre de nadie. Es una de las reglas que no cambiamos en ninguna operación.
+Comprador y vendedor se sientan en la misma mesa antes de firmar, leen juntos las condiciones y se resuelven las dudas. La señal va **a la cuenta del propietario**, con un contrato revisado por los abogados de Huspy. Nosotros no tocamos ese dinero.
