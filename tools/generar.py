@@ -114,7 +114,7 @@ def cabecera(depth, actual=''):
 <div class="wrap">
 <a class="brand" href="{r or './'}" aria-label="Propitae, inicio">
 <img src="{r}assets/img/huspy-blanco.svg" alt="Huspy" width="85" height="22">
-<span class="by">Equipo <img src="{r}assets/img/propitae-blanco-mark.svg" alt="Propitae" width="86" height="13"></span>
+<span class="by">Wilson y Alexandra</span>
 </a>
 <nav class="site-nav" aria-label="Principal">
 {nav}<a class="cta" href="{r}#contacto">Contactar</a>
