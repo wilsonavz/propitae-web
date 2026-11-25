@@ -46,4 +46,4 @@
 
 Revisa la nota simple antes de poner precio. A veces aparecen cargas antiguas sin cancelar, superficies que no coinciden con la realidad o un titular que ya falleció. Todo se puede arreglar, pero lleva tiempo, y es mejor que no aparezca con el comprador esperando.
 
-En las viviendas que vendemos, pedimos la nota simple nosotros y revisamos toda la documentación antes de publicar. Así el día que llega el comprador no hay sorpresas.
+En las viviendas que vendemos, pedimos la nota simple nosotros y revisamos toda la documentación antes de publicar, con el equipo legal de Huspy detrás. Así el día que llega el comprador no hay sorpresas.

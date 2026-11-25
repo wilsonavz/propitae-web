@@ -440,7 +440,7 @@ def blog():
 
 
 # ---------------------------------------------------------------- mapas para buscadores e IA
-ESTATICAS = [('/', None), ('/inmuebles/', 'cat'), ('/blog/', None), ('/equipo/', None), ('/equipo/wilson-vasquez/', None), ('/equipo/alexandra-pilapanta/', None),
+ESTATICAS = [('/', None), ('/inmuebles/', 'cat'), ('/blog/', None), ('/equipo/', None), ('/equipo/wilson-vasquez/', None), ('/equipo/alexandra-pilapanta/', None), ('/vender/', None),
              ('/aviso-legal/', None), ('/privacidad/', None), ('/cookies/', None)]
 
 
