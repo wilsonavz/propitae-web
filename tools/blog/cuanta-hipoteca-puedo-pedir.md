@@ -60,4 +60,4 @@ Para un piso de 250.000 €: 50.000 € de entrada y unos 17.500 € de gastos. 
 
 ## Haz el estudio antes de buscar
 
-El orden correcto es primero saber cuánto te prestan y después buscar casa. Te hacemos gratis el estudio de tu capacidad de compra y comparamos ofertas de varios bancos, con el apoyo de especialistas en financiación. No concedemos hipotecas ni decidimos su aprobación: eso lo hace el banco. Lo que sí hacemos es preparar bien tu caso para que tenga las mejores opciones.
+El orden correcto es primero saber cuánto te prestan y después buscar casa. Te hacemos gratis el estudio de tu capacidad de compra y comparamos ofertas de varios bancos con Bayteca, la firma hipotecaria del grupo Huspy. No concedemos hipotecas ni decidimos su aprobación: eso lo hace el banco. Lo que sí hacemos es preparar bien tu caso para que tenga las mejores opciones.

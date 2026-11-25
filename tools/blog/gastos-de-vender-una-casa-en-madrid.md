@@ -13,7 +13,7 @@
   "faq": [
     ["¿Tengo que pagar IRPF si vendo mi vivienda habitual?", "Solo por la ganancia, si la hay. Queda exenta si reinviertes lo obtenido en otra vivienda habitual en un plazo de dos años, o si tienes más de 65 años y vendes tu vivienda habitual."],
     ["¿Quién paga la notaría en una compraventa?", "Salvo pacto, el vendedor paga la escritura de venta (la matriz) y el comprador la primera copia y lo posterior, según el artículo 1455 del Código Civil."],
-    ["¿Cuánto cobráis por vender?", "Entre el 3 % y el 5 % + IVA según la operación. Te lo explicamos con números en la primera visita."]
+    ["¿Cuánto cobráis por vender?", "Depende de la casa y del plan de venta que elijas. Se acuerda contigo antes de firmar el encargo y te lo explicamos con números en la primera visita."]
   ],
   "fuentes": [
     ["Guía Fiscal · Ganancia patrimonial: escala del ahorro 2026 y exenciones", "https://guiafiscal.es/glosario/ganancia-patrimonial/"],
@@ -59,7 +59,7 @@ La cobra el ayuntamiento por la subida de valor del suelo. En Torrejón de Ardoz
 | Escritura de compraventa (matriz) | Salvo pacto, la paga el vendedor |
 | IBI del año | Lo paga quien es propietario el 1 de enero; se suele pactar el reparto |
 | Deudas con la comunidad | Hay que estar al corriente para vender |
-| Honorarios de la inmobiliaria | Solo si contratas una y la venta se cierra |
+| Honorarios de la inmobiliaria | Si vendes con una; se pactan al firmar el encargo |
 
 Si el banco cobra comisión por amortizar anticipadamente, revisa tu escritura de hipoteca: depende de lo que firmaste.
 
