@@ -7,13 +7,14 @@
   "categoria": "Vender",
   "autor": "wilson",
   "fecha": "2026-11-14",
+  "modificado": "2026-11-25",
   "claves": ["gastos vender piso Madrid", "impuestos vender casa", "IRPF venta vivienda 2026", "qué paga el vendedor"],
   "lugares": ["Comunidad de Madrid", "Torrejón de Ardoz"],
   "respuesta": "Al vender una casa en Madrid, el vendedor paga sobre todo dos impuestos: el <strong>IRPF por la ganancia</strong> (del 19 % al 30 % según lo que ganes, salvo exenciones) y la <strong>plusvalía municipal</strong>. A eso se suman, según el caso, la cancelación de la hipoteca, el certificado energético, la escritura de venta y los honorarios de la inmobiliaria.",
   "faq": [
     ["¿Tengo que pagar IRPF si vendo mi vivienda habitual?", "Solo por la ganancia, si la hay. Queda exenta si reinviertes lo obtenido en otra vivienda habitual en un plazo de dos años, o si tienes más de 65 años y vendes tu vivienda habitual."],
     ["¿Quién paga la notaría en una compraventa?", "Salvo pacto, el vendedor paga la escritura de venta (la matriz) y el comprador la primera copia y lo posterior, según el artículo 1455 del Código Civil."],
-    ["¿Cuánto cobráis por vender?", "Depende de la casa y del plan de venta que elijas. Se acuerda contigo antes de firmar el encargo y te lo explicamos con números en la primera visita."]
+    ["¿Cuánto cobráis por vender?", "Depende de la casa y del plan de venta que elijas. Se acuerda contigo antes de firmar el encargo y te lo explicamos con números en la primera visita. Si no te ayudamos a vender, no pagas nada."]
   ],
   "fuentes": [
     ["Guía Fiscal · Ganancia patrimonial: escala del ahorro 2026 y exenciones", "https://guiafiscal.es/glosario/ganancia-patrimonial/"],

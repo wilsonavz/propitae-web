@@ -37,7 +37,7 @@
 
 ## Cuánto cuesta
 
-Depende de la operación: no es lo mismo buscar una vivienda de 100.000 € que una de un millón, ni una casa para vivir que una inversión con reforma. Los honorarios se acuerdan contigo antes de empezar, por escrito, y te los explicamos con números en la primera llamada.
+Depende de la operación: no es lo mismo buscar una vivienda de 100.000 € que una de un millón, ni una casa para vivir que una inversión con reforma. Los honorarios se acuerdan contigo antes de empezar, por escrito, y te los explicamos con números en la primera llamada. Solo se pagan si compras.
 
 ## Lo que nos hace distintos
 
