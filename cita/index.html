@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formsubmit.co https://alta.propitae.es; form-action 'self' https://formsubmit.co; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Pide una llamada | Propitae</title>
+<meta name="description" content="Pide una llamada o una visita con Wilson y Alexandra, asesores de Huspy en Madrid.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://propitae.es/cita/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Propitae">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Pide una llamada | Propitae">
+<meta property="og:description" content="Pide una llamada o una visita con Wilson y Alexandra, asesores de Huspy en Madrid.">
+<meta property="og:url" content="https://propitae.es/cita/">
+<meta property="og:image" content="https://propitae.es/assets/img/og-huspy.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="preload" href="../assets/fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/marca.css">
+<link rel="stylesheet" href="../assets/css/base.css?v=20261121">
+<link rel="stylesheet" href="../assets/css/extras.css">
+<link rel="stylesheet" href="../assets/css/captacion.css?v=20261125">
+<script src="../assets/js/site.js" defer></script>
+<script src="../assets/js/captacion.js?v=20261125" defer></script>
+</head>
+<body>
+<a class="sr-only" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="../" aria-label="Propitae, inicio">
+<img src="../assets/img/huspy-blanco.svg" alt="Huspy" width="85" height="22">
+<span class="by">Wilson y Alexandra</span>
+</a>
+<nav class="site-nav" aria-label="Principal">
+<a href="../#vender">Vender</a>
+<a href="../#personal-shopper">Personal Shopper</a>
+<a href="../#financiar">Financiación</a>
+
+<a href="../blog/">Blog</a>
+<a class="cta" href="../#contacto">Contactar</a>
+</nav>
+</div>
+</header>
+<main id="contenido">
+<section class="cap-hero">
+<div class="wrap">
+<div class="cap-texto">
+<p class="eyebrow">Cita</p>
+<h1>Hablamos <span class="serif">cuando te venga bien.</span></h1>
+<p class="lead" data-sin-enlace>Déjanos tu teléfono y te llamamos en menos de 24 horas. Si es para ver una casa, en la llamada quedamos para la visita.</p>
+<div class="cap-firma"><img src="../assets/img/wilson.webp" alt="" width="52" height="52"><img src="../assets/img/alexandra.webp" alt="" width="52" height="52"><span>Wilson y Alexandra, asesores de Huspy</span></div>
+</div>
+
+<div>
+<div id="cap-enlace" class="cap-hecho" tabindex="-1" hidden>
+<p class="cap-saludo" style="font-weight:700">Hola.</p>
+<h2>Elige cuándo <span class="serif">te llamamos.</span></h2>
+<p>Una llamada corta para conocer tu casa y lo que necesitas.</p>
+<p class="cap-estado" role="status" aria-live="polite" hidden></p>
+<div class="cap-dias"></div>
+<p style="margin:0"><button type="button" class="cap-enviar cap-confirmar" hidden>Confirmar</button></p>
+</div>
+
+<form id="form-cita" class="cap-form" novalidate data-sin-enlace>
+<h2>Pide una llamada</h2>
+<p class="sub">Te llamamos nosotros, sin compromiso.</p>
+<div class="campo-trampa" aria-hidden="true"><label>No rellenes este campo<input type="text" name="web" tabindex="-1" autocomplete="off"></label></div>
+<fieldset>
+<legend>¿En qué te ayudamos?</legend>
+<div class="cap-opciones">
+<label class="cap-opcion"><input type="radio" name="motivo" value="vender" required checked><span>Vender mi casa</span></label>
+<label class="cap-opcion"><input type="radio" name="motivo" value="comprar"><span>Comprar</span></label>
+<label class="cap-opcion"><input type="radio" name="motivo" value="financiar"><span>Financiar</span></label>
+<label class="cap-opcion"><input type="radio" name="motivo" value="otro"><span>Otra cosa</span></label>
+</div>
+</fieldset>
+<label class="cap-campo" id="cita-cp-campo">Código postal de la vivienda<input type="text" name="cp" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" placeholder="28850"></label>
+<div class="cap-fila">
+<label class="cap-campo">Nombre<input type="text" name="nombre" required maxlength="120" autocomplete="name" placeholder="Tu nombre"></label>
+<label class="cap-campo">Teléfono<input type="tel" name="tel" required maxlength="20" autocomplete="tel" inputmode="tel" placeholder="600 000 000"></label>
+</div>
+<label class="cap-campo">¿Cuándo te viene mejor?<select name="momento">
+<option value="">Me da igual</option>
+<option>Por la mañana</option>
+<option>Por la tarde</option>
+</select></label>
+<label class="cap-campo">Mensaje <small>(opcional)</small><textarea name="mensaje" rows="3" maxlength="1000" placeholder="Si es por una casa en concreto, dinos cuál"></textarea></label>
+<label class="cap-check"><input type="checkbox" name="privacidad" required> <span>Acepto la <a href="../privacidad/">política de privacidad</a> y que me llaméis para responder a mi consulta.</span></label>
+<label class="cap-check"><input type="checkbox" name="whatsapp"> <span>Podéis escribirme por WhatsApp para confirmar la llamada.</span></label>
+<p class="cap-estado" role="status" aria-live="polite" hidden></p>
+<button type="submit" class="cap-enviar">Pedir la llamada</button>
+</form>
+
+<div id="cap-hecho" class="cap-hecho" tabindex="-1" hidden>
+<h2>Gracias.</h2>
+<p class="cap-hecho-texto"></p>
+<div id="cap-reserva" tabindex="-1" hidden>
+<p class="cap-estado" role="status" aria-live="polite" hidden></p>
+<div class="cap-dias"></div>
+<p style="margin:16px 0 0"><button type="button" class="cap-enviar cap-confirmar" hidden>Confirmar</button></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="wrap cap-seccion">
+<div class="cap-cierre" style="margin-top:0">
+<p><strong>¿Prefieres llamar tú?</strong> Estamos en el 665 288 919, también por WhatsApp.</p>
+<div class="cap-acciones"><a class="btn btn-negro" href="tel:+34665288919">Llamar</a><a class="btn btn-wa" href="https://wa.me/34665288919?text=Hola%2C%20os%20escribo%20desde%20la%20web%20propitae.es%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+</div>
+</section>
+</main>
+<footer style="background: #0B0B0C; color: #FFFFFF">
+<div style="max-width: 1280px; margin: 0 auto; padding: 56px clamp(20px, 4vw, 56px) 112px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 14px"><img src="/assets/img/huspy-blanco.svg" alt="Huspy" style="height: 40px; width: auto; display: block; align-self: flex-start"><span style="font-size: 16px; color: #D9DCDF">Wilson y Alexandra, asesores inmobiliarios en Madrid</span></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 20px; font-size: 14px">
+<span style="color: #BFC3C7">© 2026 Equipo Propitae</span>
+<nav aria-label="Legal" style="display: flex; flex-wrap: wrap; gap: 4px 24px">
+<a class="navlink" href="/equipo/" style="color: #FFFFFF; text-decoration: none; padding: 10px 0">Equipo</a>
+<a class="navlink" href="/blog/" style="color: #FFFFFF; text-decoration: none; padding: 10px 0">Blog</a>
+<a class="navlink" href="/aviso-legal/" style="color: #FFFFFF; text-decoration: none; padding: 10px 0">Aviso legal</a>
+<a class="navlink" href="/privacidad/" style="color: #FFFFFF; text-decoration: none; padding: 10px 0">Privacidad</a>
+<a class="navlink" href="/cookies/" style="color: #FFFFFF; text-decoration: none; padding: 10px 0">Cookies</a>
+</nav>
+</div>
+</div>
+</footer>
+<a class="wa-float" href="https://wa.me/34665288919?text=Hola%2C%20os%20escribo%20desde%20la%20web%20propitae.es%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.5-4.5a8.4 8.4 0 1 1 15.5-4.4Z"/><path d="M9 8.6c.2-.4.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .5-.1.7l-.5.6c.6 1.2 1.6 2.2 2.8 2.8l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.2.6-.5.8-.6.4-1.4.5-2.1.3-2.5-.8-4.5-2.8-5.3-5.3-.2-.7-.1-1.4.3-2Z"/></svg>
+<span>WhatsApp</span>
+</a>
+<div class="aviso-cookies" role="region" aria-label="Aviso de cookies" hidden>
+<p>Esta web <strong>no usa cookies</strong> de seguimiento ni de publicidad. <a href="../cookies/">Más información</a></p>
+<button type="button" class="aviso-cookies-ok">Entendido</button>
+</div>
+</body>
+</html>
